@@ -4,6 +4,7 @@
 import { ConnectActions } from "@/components/landing/connect-actions";
 import { CurrentYear } from "@/components/landing/current-year";
 import { DemoVideo } from "@/components/landing/demo-video";
+import { NavBasesLink, ResumeBases } from "@/components/landing/resume-bases";
 import { Wordmark } from "@/components/logo";
 import { WhatsAppFloat } from "@/components/whatsapp";
 import { whatsappUrl } from "@/lib/whatsapp";
@@ -31,7 +32,8 @@ export function LandingPage() {
               ))}
             </ul>
           </nav>
-          <div className="justify-self-end">
+          <div className="flex items-center gap-2 justify-self-end">
+            <NavBasesLink className="hidden sm:inline-flex" />
             <ConnectActions compact />
           </div>
         </div>
@@ -53,6 +55,7 @@ export function LandingPage() {
           <div className="mt-8">
             <ConnectActions />
           </div>
+          <ResumeBases />
           <div className="mt-7 flex flex-col items-center justify-center gap-2 sm:flex-row sm:gap-3">
             <div className="flex -space-x-1.5" aria-hidden>
               {["A", "B", "C", "D"].map((l) => (

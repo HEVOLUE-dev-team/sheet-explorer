@@ -48,7 +48,10 @@ interface AppSidebarProps {
 }
 
 export function AppSidebar({ onAddSource, onNewJoin, onEditJoin, onRename, whatsappUrl }: AppSidebarProps) {
-  const { sources, joins, selection, select, removeSource, removeJoin, snapshot, restore } = useSources();
+  const { sources, joins, selection, select, removeSource, removeSources, removeJoin, snapshot, restore } = useSources();
+  // Les bases fictives restent à part : elles ne se mélangent jamais aux bases de l'utilisateur.
+  const ownSources = sources.filter((s) => !isDemoId(s.spreadsheetId));
+  const demoSources = sources.filter((s) => isDemoId(s.spreadsheetId));
   const { setOpenMobile } = useSidebar();
 
   const choose = (next: NonNullable<typeof selection>) => {
@@ -70,6 +73,49 @@ export function AppSidebar({ onAddSource, onNewJoin, onEditJoin, onRename, whats
     });
   };
 
+  const removeDemo = () => {
+    const saved = snapshot();
+    removeSources(demoSources.map((s) => s.id));
+    toast("Bases de démonstration retirées", {
+      description: "Vos propres bases ne sont pas touchées.",
+      action: { label: "Annuler", onClick: () => restore(saved) },
+    });
+  };
+
+  const sourceItem = (source: SheetSource) => (
+    <SidebarMenuItem key={source.id}>
+      <SidebarMenuButton
+        size="lg"
+        isActive={selection?.kind === "source" && selection.id === source.id}
+        onClick={() => choose({ kind: "source", id: source.id })}
+        className={`h-11 ${ACTIVE}`}
+      >
+        <span className="grid min-w-0 leading-tight">
+          <span className="truncate">{source.name}</span>
+          <span className="truncate text-[11px] font-normal opacity-75">{source.sheetTitle}</span>
+        </span>
+      </SidebarMenuButton>
+      <ItemMenu label={source.name}>
+        <DropdownMenuItem onClick={() => onRename({ kind: "source", item: source })}>
+          <Pencil /> Renommer
+        </DropdownMenuItem>
+        {!isDemoId(source.spreadsheetId) && (
+          <DropdownMenuItem
+            render={
+              <a href={`https://docs.google.com/spreadsheets/d/${source.spreadsheetId}/edit`} target="_blank" rel="noreferrer" />
+            }
+          >
+            <ExternalLink /> Ouvrir dans Google Sheets
+          </DropdownMenuItem>
+        )}
+        <DropdownMenuSeparator />
+        <DropdownMenuItem variant="destructive" onClick={() => remove("source", source)}>
+          <Trash2 /> Supprimer la connexion
+        </DropdownMenuItem>
+      </ItemMenu>
+    </SidebarMenuItem>
+  );
+
   const sourceName = (id: string) => sources.find((s) => s.id === id)?.name ?? "base supprimée";
 
   return (
@@ -86,55 +132,35 @@ export function AppSidebar({ onAddSource, onNewJoin, onEditJoin, onRename, whats
 
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel className="text-[11px] font-semibold tracking-wider text-sidebar-muted uppercase">Bases</SidebarGroupLabel>
+          <SidebarGroupLabel className="text-[11px] font-semibold tracking-wider text-sidebar-muted uppercase">Mes bases</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
-              {sources.length === 0 && (
-                <p className="px-2 py-1.5 text-xs text-sidebar-muted">Aucune base pour l&apos;instant.</p>
+              {ownSources.length === 0 && (
+                <p className="px-2 py-1.5 text-xs text-sidebar-muted">Aucune base à vous pour l&apos;instant.</p>
               )}
-              {sources.map((source) => (
-                <SidebarMenuItem key={source.id}>
-                  <SidebarMenuButton
-                    size="lg"
-                    isActive={selection?.kind === "source" && selection.id === source.id}
-                    onClick={() => choose({ kind: "source", id: source.id })}
-                    className={`h-11 ${ACTIVE}`}
-                  >
-                    <span className="grid min-w-0 leading-tight">
-                      <span className="truncate">{source.name}</span>
-                      <span className="truncate text-[11px] font-normal opacity-75">
-                        {isDemoId(source.spreadsheetId) ? "Démonstration · " : ""}
-                        {source.sheetTitle}
-                      </span>
-                    </span>
-                  </SidebarMenuButton>
-                  <ItemMenu label={source.name}>
-                    <DropdownMenuItem onClick={() => onRename({ kind: "source", item: source })}>
-                      <Pencil /> Renommer
-                    </DropdownMenuItem>
-                    {!isDemoId(source.spreadsheetId) && (
-                      <DropdownMenuItem
-                        render={
-                          <a
-                            href={`https://docs.google.com/spreadsheets/d/${source.spreadsheetId}/edit`}
-                            target="_blank"
-                            rel="noreferrer"
-                          />
-                        }
-                      >
-                        <ExternalLink /> Ouvrir dans Google Sheets
-                      </DropdownMenuItem>
-                    )}
-                    <DropdownMenuSeparator />
-                    <DropdownMenuItem variant="destructive" onClick={() => remove("source", source)}>
-                      <Trash2 /> Supprimer la connexion
-                    </DropdownMenuItem>
-                  </ItemMenu>
-                </SidebarMenuItem>
-              ))}
+              {ownSources.map(sourceItem)}
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
+
+        {demoSources.length > 0 && (
+          <SidebarGroup>
+            <SidebarGroupLabel className="text-[11px] font-semibold tracking-wider text-sidebar-muted uppercase">
+              Démonstration
+            </SidebarGroupLabel>
+            <SidebarGroupContent>
+              <SidebarMenu>
+                {demoSources.map(sourceItem)}
+                <SidebarMenuItem>
+                  <SidebarMenuButton onClick={removeDemo} className="text-[12px] text-sidebar-muted">
+                    <Trash2 />
+                    <span>Retirer la démo</span>
+                  </SidebarMenuButton>
+                </SidebarMenuItem>
+              </SidebarMenu>
+            </SidebarGroupContent>
+          </SidebarGroup>
+        )}
 
         {joins.length > 0 && (
           <SidebarGroup>

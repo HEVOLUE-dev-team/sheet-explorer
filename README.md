@@ -16,7 +16,9 @@ L'application a deux pages :
   partager le Sheet, copier le lien, le coller, chercher, ouvrir une fiche, croiser) et un pied de page. Le bouton **« Connecter un Google Sheet »** Il ouvre le formulaire d'ajout ; dès qu'un lien valide est
   lu (fichier partagé, onglet non vide), la base est enregistrée et le back office s'ouvre.
   « Essayer avec la démo » ouvre le back office avec les 4 bases fictives.
-- **`/app`, le back office** : bases, tableau, fiches, croisements, export.
+- **`/app`, le back office** : bases, tableau, fiches, croisements, export. Si des bases sont déjà
+  enregistrées dans le navigateur, la landing propose « Ouvrir mes bases » sans redemander de lien.
+  Les bases de démonstration sont rangées à part (« Démonstration ») et se retirent d'un clic.
 
 ![Tableau d'une base](docs/captures/03-tableau.png)
 

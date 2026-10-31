@@ -94,14 +94,15 @@ export function useSources() {
     setState((s) => ({ ...s, sources: s.sources.map((src) => (src.id === id ? { ...src, name } : src)) }));
   }, []);
 
-  /** Supprimer une base supprime aussi les croisements qui l'utilisent. */
-  const removeSource = useCallback((id: string) => {
+  /** Supprimer des bases supprime aussi les croisements qui les utilisent. */
+  const removeSources = useCallback((ids: string[]) => {
     setState((s) => {
-      const joins = s.joins.filter((j) => j.sourceA !== id && j.sourceB !== id);
+      const gone = new Set(ids);
+      const joins = s.joins.filter((j) => !gone.has(j.sourceA) && !gone.has(j.sourceB));
       const selectionGone =
-        (s.selection?.kind === "source" && s.selection.id === id) ||
+        (s.selection?.kind === "source" && gone.has(s.selection.id)) ||
         (s.selection?.kind === "join" && !joins.some((j) => j.id === s.selection?.id));
-      const sources = s.sources.filter((src) => src.id !== id);
+      const sources = s.sources.filter((src) => !gone.has(src.id));
       return {
         sources,
         joins,
@@ -109,6 +110,8 @@ export function useSources() {
       };
     });
   }, []);
+
+  const removeSource = useCallback((id: string) => removeSources([id]), [removeSources]);
 
   const addJoin = useCallback((input: Omit<JoinConfig, "id" | "createdAt">) => {
     const join: JoinConfig = { ...input, id: newId(), createdAt: Date.now() };
@@ -148,6 +151,7 @@ export function useSources() {
     addSource,
     renameSource,
     removeSource,
+    removeSources,
     addJoin,
     updateJoin,
     removeJoin,
