@@ -110,6 +110,7 @@ function AddSourceForm({ onDone }: { onDone: (added?: SheetSource) => void }) {
       });
       onDone(source);
     } catch (error) {
+      if (!(error instanceof SheetsClientError)) console.error("[add-source]", error);
       setSubmitError(error instanceof SheetsClientError ? error.message : "Lecture de l'onglet impossible.");
     } finally {
       setSaving(false);

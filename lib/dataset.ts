@@ -15,8 +15,10 @@ export function rubricNumber(position: number): string {
  * Les lignes sont complétées à la largeur des en-têtes et les lignes entièrement vides retirées.
  */
 export function buildDataset(values: string[][]): Dataset {
-  const [headerRow = [], ...body] = values;
-  const width = Math.max(headerRow.length, ...body.map((r) => r.length), 0);
+  const headerRow = values[0] ?? [];
+  // Pas de Math.max(...lignes) : au-delà de ~100 000 lignes, l'étalement dépasse la pile du navigateur.
+  let width = headerRow.length;
+  for (let r = 1; r < values.length; r++) if (values[r].length > width) width = values[r].length;
 
   const seen = new Map<string, number>();
   const labels = Array.from({ length: width }, (_, i) => {
@@ -27,7 +29,8 @@ export function buildDataset(values: string[][]): Dataset {
   });
 
   const rows: string[][] = [];
-  for (const raw of body) {
+  for (let r = 1; r < values.length; r++) {
+    const raw = values[r];
     const row = Array.from({ length: width }, (_, i) => (raw[i] ?? "").toString());
     if (row.some((cell) => cell.trim() !== "")) rows.push(row);
   }
