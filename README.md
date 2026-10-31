@@ -248,6 +248,28 @@ Avec `WHATSAPP_NUMBER` dans `.env.local` (format international, ex. `+3360000000
 affiche un bouton WhatsApp flottant et le back office une entrée « Aide sur WhatsApp ». La conversation
 s'ouvre avec un message de salutation pré-rempli. Sans la variable, rien n'est affiché.
 
+## Déploiement (Docker / Coolify)
+
+Le dépôt contient un `Dockerfile` (Next.js en mode `standalone`, image Node 22 Alpine, port 3000).
+
+Dans Coolify : *Build Pack* **Dockerfile**, port exposé **3000**, puis ces variables :
+
+| Variable | Quand | Rôle |
+| --- | --- | --- |
+| `GOOGLE_SHEETS_API_KEY` | exécution | Clé de l'API Google Sheets (obligatoire pour lire de vrais Sheets). |
+| `WHATSAPP_NUMBER` | **construction** (cochez « Build Variable ») | Numéro du bouton d'aide. La landing est une page statique : le numéro y est intégré au build. |
+| `SHEETS_DEMO_MODE` | exécution | `true` pour proposer les bases de démonstration en production. |
+
+Test local de l'image :
+
+```bash
+docker build --build-arg WHATSAPP_NUMBER=+33600000000 -t sheet-explorer .
+```
+
+```bash
+docker run -p 3000:3000 -e GOOGLE_SHEETS_API_KEY=… -e SHEETS_DEMO_MODE=true sheet-explorer
+```
+
 ## Scripts
 
 | Commande | Rôle |

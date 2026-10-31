@@ -1,0 +1,11 @@
+node_modules
+.next
+.git
+.env*
+!.env.example
+.claude
+.impeccable
+docs
+*.md
+!README.md
+npm-debug.log*

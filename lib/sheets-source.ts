@@ -157,7 +157,7 @@ export function getSheetsSource(spreadsheetId: string): SheetsSource {
   if (!apiKey) {
     throw new SheetsError(
       "MISSING_KEY",
-      "Aucune clé d'API n'est configurée. Ajoutez GOOGLE_SHEETS_API_KEY dans .env.local puis relancez le serveur.",
+      "Aucune clé d'API n'est configurée. Ajoutez GOOGLE_SHEETS_API_KEY (.env.local en local, variables d'environnement en production) puis redémarrez le serveur.",
       500,
     );
   }
