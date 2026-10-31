@@ -47,3 +47,7 @@ next-env.d.ts
 .impeccable/review/
 .impeccable/mocks/
 .impeccable/build/
+
+# Outils locaux (non versionnés)
+.claude/
+.impeccable/
