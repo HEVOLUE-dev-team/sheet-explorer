@@ -1,9 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   cacheComponents: true,
   partialPrefetching: true,
+  // Le badge de développement masquait le bas du rail des bases.
+  devIndicators: false,
   turbopack: {
     rules: {
       "*.css": {

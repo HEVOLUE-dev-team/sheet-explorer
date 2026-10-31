@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# le modèle de configuration est versionné
+!.env.example
+
+# Impeccable : captures de revue et croquis de travail (non versionnés)
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/build/

@@ -1,0 +1,1021 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-31T13:47:51+00:00",
+  "title": "Design System: Sheet Explorer",
+  "extensions": {
+    "colorMeta": {
+      "papier-creme": {
+        "role": "neutral",
+        "displayName": "Papier crème",
+        "canonical": "oklch(0.968 0.006 85)",
+        "tonalRamp": [
+          "oklch(0.15 0.006 85)",
+          "oklch(0.27 0.006 85)",
+          "oklch(0.39 0.006 85)",
+          "oklch(0.51 0.006 85)",
+          "oklch(0.63 0.006 85)",
+          "oklch(0.75 0.006 85)",
+          "oklch(0.86 0.006 85)",
+          "oklch(0.95 0.006 85)"
+        ]
+      },
+      "encre": {
+        "role": "primary",
+        "displayName": "Encre",
+        "canonical": "oklch(0.25 0.008 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.008 70)",
+          "oklch(0.27 0.008 70)",
+          "oklch(0.39 0.008 70)",
+          "oklch(0.51 0.008 70)",
+          "oklch(0.63 0.008 70)",
+          "oklch(0.75 0.008 70)",
+          "oklch(0.86 0.008 70)",
+          "oklch(0.95 0.008 70)"
+        ]
+      },
+      "encre-noire": {
+        "role": "primary",
+        "displayName": "Encre noire",
+        "canonical": "oklch(0.22 0.004 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.004 70)",
+          "oklch(0.27 0.004 70)",
+          "oklch(0.39 0.004 70)",
+          "oklch(0.51 0.004 70)",
+          "oklch(0.63 0.004 70)",
+          "oklch(0.75 0.004 70)",
+          "oklch(0.86 0.004 70)",
+          "oklch(0.95 0.004 70)"
+        ]
+      },
+      "sur-encre": {
+        "role": "neutral",
+        "displayName": "Crème sur encre",
+        "canonical": "oklch(0.97 0.006 85)",
+        "tonalRamp": [
+          "oklch(0.15 0.006 85)",
+          "oklch(0.27 0.006 85)",
+          "oklch(0.39 0.006 85)",
+          "oklch(0.51 0.006 85)",
+          "oklch(0.63 0.006 85)",
+          "oklch(0.75 0.006 85)",
+          "oklch(0.86 0.006 85)",
+          "oklch(0.95 0.006 85)"
+        ]
+      },
+      "carte": {
+        "role": "neutral",
+        "displayName": "Carte",
+        "canonical": "oklch(0.99 0.003 85)",
+        "tonalRamp": [
+          "oklch(0.15 0.003 85)",
+          "oklch(0.27 0.003 85)",
+          "oklch(0.39 0.003 85)",
+          "oklch(0.51 0.003 85)",
+          "oklch(0.63 0.003 85)",
+          "oklch(0.75 0.003 85)",
+          "oklch(0.86 0.003 85)",
+          "oklch(0.95 0.003 85)"
+        ]
+      },
+      "fond-muet": {
+        "role": "neutral",
+        "displayName": "Fond muet",
+        "canonical": "oklch(0.935 0.008 80)",
+        "tonalRamp": [
+          "oklch(0.15 0.008 80)",
+          "oklch(0.27 0.008 80)",
+          "oklch(0.39 0.008 80)",
+          "oklch(0.51 0.008 80)",
+          "oklch(0.63 0.008 80)",
+          "oklch(0.75 0.008 80)",
+          "oklch(0.86 0.008 80)",
+          "oklch(0.95 0.008 80)"
+        ]
+      },
+      "survol": {
+        "role": "neutral",
+        "displayName": "Survol",
+        "canonical": "oklch(0.94 0.008 80)",
+        "tonalRamp": [
+          "oklch(0.15 0.008 80)",
+          "oklch(0.27 0.008 80)",
+          "oklch(0.39 0.008 80)",
+          "oklch(0.51 0.008 80)",
+          "oklch(0.63 0.008 80)",
+          "oklch(0.75 0.008 80)",
+          "oklch(0.86 0.008 80)",
+          "oklch(0.95 0.008 80)"
+        ]
+      },
+      "bandeau": {
+        "role": "neutral",
+        "displayName": "Bandeau",
+        "canonical": "oklch(0.935 0.01 80)",
+        "tonalRamp": [
+          "oklch(0.15 0.010 80)",
+          "oklch(0.27 0.010 80)",
+          "oklch(0.39 0.010 80)",
+          "oklch(0.51 0.010 80)",
+          "oklch(0.63 0.010 80)",
+          "oklch(0.75 0.010 80)",
+          "oklch(0.86 0.010 80)",
+          "oklch(0.95 0.010 80)"
+        ]
+      },
+      "bandeau-encre": {
+        "role": "neutral",
+        "displayName": "Encre de bandeau",
+        "canonical": "oklch(0.32 0.01 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.010 70)",
+          "oklch(0.27 0.010 70)",
+          "oklch(0.39 0.010 70)",
+          "oklch(0.51 0.010 70)",
+          "oklch(0.63 0.010 70)",
+          "oklch(0.75 0.010 70)",
+          "oklch(0.86 0.010 70)",
+          "oklch(0.95 0.010 70)"
+        ]
+      },
+      "encre-attenuee": {
+        "role": "neutral",
+        "displayName": "Encre atténuée",
+        "canonical": "oklch(0.47 0.01 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.010 70)",
+          "oklch(0.27 0.010 70)",
+          "oklch(0.39 0.010 70)",
+          "oklch(0.51 0.010 70)",
+          "oklch(0.63 0.010 70)",
+          "oklch(0.75 0.010 70)",
+          "oklch(0.86 0.010 70)",
+          "oklch(0.95 0.010 70)"
+        ]
+      },
+      "peche-selection": {
+        "role": "secondary",
+        "displayName": "Pêche sélection",
+        "canonical": "oklch(0.91 0.045 60)",
+        "tonalRamp": [
+          "oklch(0.15 0.015 60)",
+          "oklch(0.27 0.024 60)",
+          "oklch(0.39 0.033 60)",
+          "oklch(0.51 0.042 60)",
+          "oklch(0.63 0.039 60)",
+          "oklch(0.75 0.030 60)",
+          "oklch(0.86 0.022 60)",
+          "oklch(0.95 0.015 60)"
+        ]
+      },
+      "filet-separation": {
+        "role": "neutral",
+        "displayName": "Filet de séparation",
+        "canonical": "oklch(0.88 0.01 80)",
+        "tonalRamp": [
+          "oklch(0.15 0.010 80)",
+          "oklch(0.27 0.010 80)",
+          "oklch(0.39 0.010 80)",
+          "oklch(0.51 0.010 80)",
+          "oklch(0.63 0.010 80)",
+          "oklch(0.75 0.010 80)",
+          "oklch(0.86 0.010 80)",
+          "oklch(0.95 0.010 80)"
+        ]
+      },
+      "filet-case": {
+        "role": "neutral",
+        "displayName": "Filet de case",
+        "canonical": "oklch(0.8 0.015 75)",
+        "tonalRamp": [
+          "oklch(0.15 0.015 75)",
+          "oklch(0.27 0.015 75)",
+          "oklch(0.39 0.015 75)",
+          "oklch(0.51 0.015 75)",
+          "oklch(0.63 0.015 75)",
+          "oklch(0.75 0.015 75)",
+          "oklch(0.86 0.015 75)",
+          "oklch(0.95 0.015 75)"
+        ]
+      },
+      "vert-trouve": {
+        "role": "tertiary",
+        "displayName": "Vert trouvé",
+        "canonical": "oklch(0.48 0.1 150)",
+        "tonalRamp": [
+          "oklch(0.15 0.033 150)",
+          "oklch(0.27 0.053 150)",
+          "oklch(0.39 0.073 150)",
+          "oklch(0.51 0.093 150)",
+          "oklch(0.63 0.087 150)",
+          "oklch(0.75 0.067 150)",
+          "oklch(0.86 0.048 150)",
+          "oklch(0.95 0.033 150)"
+        ]
+      },
+      "rouge-absent": {
+        "role": "tertiary",
+        "displayName": "Rouge absent",
+        "canonical": "oklch(0.53 0.17 30)",
+        "tonalRamp": [
+          "oklch(0.15 0.057 30)",
+          "oklch(0.27 0.091 30)",
+          "oklch(0.39 0.125 30)",
+          "oklch(0.51 0.159 30)",
+          "oklch(0.63 0.147 30)",
+          "oklch(0.75 0.113 30)",
+          "oklch(0.86 0.082 30)",
+          "oklch(0.95 0.057 30)"
+        ]
+      },
+      "ocre-base-b": {
+        "role": "secondary",
+        "displayName": "Ocre base B",
+        "canonical": "oklch(0.5 0.11 50)",
+        "tonalRamp": [
+          "oklch(0.15 0.037 50)",
+          "oklch(0.27 0.059 50)",
+          "oklch(0.39 0.081 50)",
+          "oklch(0.51 0.103 50)",
+          "oklch(0.63 0.095 50)",
+          "oklch(0.75 0.073 50)",
+          "oklch(0.86 0.053 50)",
+          "oklch(0.95 0.037 50)"
+        ]
+      },
+      "rail": {
+        "role": "neutral",
+        "displayName": "Rail",
+        "canonical": "oklch(0.22 0.004 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.004 70)",
+          "oklch(0.27 0.004 70)",
+          "oklch(0.39 0.004 70)",
+          "oklch(0.51 0.004 70)",
+          "oklch(0.63 0.004 70)",
+          "oklch(0.75 0.004 70)",
+          "oklch(0.86 0.004 70)",
+          "oklch(0.95 0.004 70)"
+        ]
+      },
+      "rail-texte": {
+        "role": "neutral",
+        "displayName": "Texte du rail",
+        "canonical": "oklch(0.93 0.008 85)",
+        "tonalRamp": [
+          "oklch(0.15 0.008 85)",
+          "oklch(0.27 0.008 85)",
+          "oklch(0.39 0.008 85)",
+          "oklch(0.51 0.008 85)",
+          "oklch(0.63 0.008 85)",
+          "oklch(0.75 0.008 85)",
+          "oklch(0.86 0.008 85)",
+          "oklch(0.95 0.008 85)"
+        ]
+      },
+      "rail-attenue": {
+        "role": "neutral",
+        "displayName": "Rail atténué",
+        "canonical": "oklch(0.72 0.01 80)",
+        "tonalRamp": [
+          "oklch(0.15 0.010 80)",
+          "oklch(0.27 0.010 80)",
+          "oklch(0.39 0.010 80)",
+          "oklch(0.51 0.010 80)",
+          "oklch(0.63 0.010 80)",
+          "oklch(0.75 0.010 80)",
+          "oklch(0.86 0.010 80)",
+          "oklch(0.95 0.010 80)"
+        ]
+      },
+      "rail-survol": {
+        "role": "neutral",
+        "displayName": "Survol du rail",
+        "canonical": "oklch(0.3 0.004 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.004 70)",
+          "oklch(0.27 0.004 70)",
+          "oklch(0.39 0.004 70)",
+          "oklch(0.51 0.004 70)",
+          "oklch(0.63 0.004 70)",
+          "oklch(0.75 0.004 70)",
+          "oklch(0.86 0.004 70)",
+          "oklch(0.95 0.004 70)"
+        ]
+      },
+      "rail-filet": {
+        "role": "neutral",
+        "displayName": "Filet du rail",
+        "canonical": "oklch(0.33 0.004 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.004 70)",
+          "oklch(0.27 0.004 70)",
+          "oklch(0.39 0.004 70)",
+          "oklch(0.51 0.004 70)",
+          "oklch(0.63 0.004 70)",
+          "oklch(0.75 0.004 70)",
+          "oklch(0.86 0.004 70)",
+          "oklch(0.95 0.004 70)"
+        ]
+      },
+      "landing-encre-attenuee": {
+        "role": "neutral",
+        "displayName": "Encre atténuée (landing)",
+        "canonical": "oklch(0.48 0.01 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.010 70)",
+          "oklch(0.27 0.010 70)",
+          "oklch(0.39 0.010 70)",
+          "oklch(0.51 0.010 70)",
+          "oklch(0.63 0.010 70)",
+          "oklch(0.75 0.010 70)",
+          "oklch(0.86 0.010 70)",
+          "oklch(0.95 0.010 70)"
+        ]
+      },
+      "landing-filet-haut": {
+        "role": "neutral",
+        "displayName": "Filet haut (landing)",
+        "canonical": "oklch(0.8 0.025 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.008 70)",
+          "oklch(0.27 0.013 70)",
+          "oklch(0.39 0.018 70)",
+          "oklch(0.51 0.023 70)",
+          "oklch(0.63 0.022 70)",
+          "oklch(0.75 0.017 70)",
+          "oklch(0.86 0.012 70)",
+          "oklch(0.95 0.008 70)"
+        ]
+      },
+      "landing-pastille": {
+        "role": "neutral",
+        "displayName": "Pastille (landing)",
+        "canonical": "oklch(0.92 0.008 80)",
+        "tonalRamp": [
+          "oklch(0.15 0.008 80)",
+          "oklch(0.27 0.008 80)",
+          "oklch(0.39 0.008 80)",
+          "oklch(0.51 0.008 80)",
+          "oklch(0.63 0.008 80)",
+          "oklch(0.75 0.008 80)",
+          "oklch(0.86 0.008 80)",
+          "oklch(0.95 0.008 80)"
+        ]
+      },
+      "landing-carte": {
+        "role": "neutral",
+        "displayName": "Carte (landing)",
+        "canonical": "oklch(0.995 0.002 85)",
+        "tonalRamp": [
+          "oklch(0.15 0.002 85)",
+          "oklch(0.27 0.002 85)",
+          "oklch(0.39 0.002 85)",
+          "oklch(0.51 0.002 85)",
+          "oklch(0.63 0.002 85)",
+          "oklch(0.75 0.002 85)",
+          "oklch(0.86 0.002 85)",
+          "oklch(0.95 0.002 85)"
+        ]
+      },
+      "landing-survol": {
+        "role": "neutral",
+        "displayName": "Survol (landing)",
+        "canonical": "oklch(0.95 0.006 85)",
+        "tonalRamp": [
+          "oklch(0.15 0.006 85)",
+          "oklch(0.27 0.006 85)",
+          "oklch(0.39 0.006 85)",
+          "oklch(0.51 0.006 85)",
+          "oklch(0.63 0.006 85)",
+          "oklch(0.75 0.006 85)",
+          "oklch(0.86 0.006 85)",
+          "oklch(0.95 0.006 85)"
+        ]
+      },
+      "nuit-fond": {
+        "role": "neutral",
+        "displayName": "fond (sombre)",
+        "canonical": "oklch(0.19 0.005 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.005 70)",
+          "oklch(0.27 0.005 70)",
+          "oklch(0.39 0.005 70)",
+          "oklch(0.51 0.005 70)",
+          "oklch(0.63 0.005 70)",
+          "oklch(0.75 0.005 70)",
+          "oklch(0.86 0.005 70)",
+          "oklch(0.95 0.005 70)"
+        ]
+      },
+      "nuit-encre": {
+        "role": "primary",
+        "displayName": "Encre (sombre)",
+        "canonical": "oklch(0.94 0.008 85)",
+        "tonalRamp": [
+          "oklch(0.15 0.008 85)",
+          "oklch(0.27 0.008 85)",
+          "oklch(0.39 0.008 85)",
+          "oklch(0.51 0.008 85)",
+          "oklch(0.63 0.008 85)",
+          "oklch(0.75 0.008 85)",
+          "oklch(0.86 0.008 85)",
+          "oklch(0.95 0.008 85)"
+        ]
+      },
+      "nuit-carte": {
+        "role": "neutral",
+        "displayName": "Carte (sombre)",
+        "canonical": "oklch(0.23 0.005 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.005 70)",
+          "oklch(0.27 0.005 70)",
+          "oklch(0.39 0.005 70)",
+          "oklch(0.51 0.005 70)",
+          "oklch(0.63 0.005 70)",
+          "oklch(0.75 0.005 70)",
+          "oklch(0.86 0.005 70)",
+          "oklch(0.95 0.005 70)"
+        ]
+      },
+      "nuit-popover": {
+        "role": "neutral",
+        "displayName": "popover (sombre)",
+        "canonical": "oklch(0.24 0.005 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.005 70)",
+          "oklch(0.27 0.005 70)",
+          "oklch(0.39 0.005 70)",
+          "oklch(0.51 0.005 70)",
+          "oklch(0.63 0.005 70)",
+          "oklch(0.75 0.005 70)",
+          "oklch(0.86 0.005 70)",
+          "oklch(0.95 0.005 70)"
+        ]
+      },
+      "nuit-encre-inverse": {
+        "role": "neutral",
+        "displayName": "encre-inverse (sombre)",
+        "canonical": "oklch(0.2 0.005 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.005 70)",
+          "oklch(0.27 0.005 70)",
+          "oklch(0.39 0.005 70)",
+          "oklch(0.51 0.005 70)",
+          "oklch(0.63 0.005 70)",
+          "oklch(0.75 0.005 70)",
+          "oklch(0.86 0.005 70)",
+          "oklch(0.95 0.005 70)"
+        ]
+      },
+      "nuit-fond-muet": {
+        "role": "neutral",
+        "displayName": "Fond muet (sombre)",
+        "canonical": "oklch(0.26 0.006 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.006 70)",
+          "oklch(0.27 0.006 70)",
+          "oklch(0.39 0.006 70)",
+          "oklch(0.51 0.006 70)",
+          "oklch(0.63 0.006 70)",
+          "oklch(0.75 0.006 70)",
+          "oklch(0.86 0.006 70)",
+          "oklch(0.95 0.006 70)"
+        ]
+      },
+      "nuit-survol": {
+        "role": "neutral",
+        "displayName": "Survol (sombre)",
+        "canonical": "oklch(0.27 0.006 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.006 70)",
+          "oklch(0.27 0.006 70)",
+          "oklch(0.39 0.006 70)",
+          "oklch(0.51 0.006 70)",
+          "oklch(0.63 0.006 70)",
+          "oklch(0.75 0.006 70)",
+          "oklch(0.86 0.006 70)",
+          "oklch(0.95 0.006 70)"
+        ]
+      },
+      "nuit-bandeau": {
+        "role": "neutral",
+        "displayName": "Bandeau (sombre)",
+        "canonical": "oklch(0.25 0.006 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.006 70)",
+          "oklch(0.27 0.006 70)",
+          "oklch(0.39 0.006 70)",
+          "oklch(0.51 0.006 70)",
+          "oklch(0.63 0.006 70)",
+          "oklch(0.75 0.006 70)",
+          "oklch(0.86 0.006 70)",
+          "oklch(0.95 0.006 70)"
+        ]
+      },
+      "nuit-bandeau-encre": {
+        "role": "neutral",
+        "displayName": "Encre de bandeau (sombre)",
+        "canonical": "oklch(0.86 0.01 80)",
+        "tonalRamp": [
+          "oklch(0.15 0.010 80)",
+          "oklch(0.27 0.010 80)",
+          "oklch(0.39 0.010 80)",
+          "oklch(0.51 0.010 80)",
+          "oklch(0.63 0.010 80)",
+          "oklch(0.75 0.010 80)",
+          "oklch(0.86 0.010 80)",
+          "oklch(0.95 0.010 80)"
+        ]
+      },
+      "nuit-encre-attenuee": {
+        "role": "neutral",
+        "displayName": "Encre atténuée (sombre)",
+        "canonical": "oklch(0.72 0.01 80)",
+        "tonalRamp": [
+          "oklch(0.15 0.010 80)",
+          "oklch(0.27 0.010 80)",
+          "oklch(0.39 0.010 80)",
+          "oklch(0.51 0.010 80)",
+          "oklch(0.63 0.010 80)",
+          "oklch(0.75 0.010 80)",
+          "oklch(0.86 0.010 80)",
+          "oklch(0.95 0.010 80)"
+        ]
+      },
+      "nuit-peche-selection": {
+        "role": "secondary",
+        "displayName": "Pêche sélection (sombre)",
+        "canonical": "oklch(0.33 0.05 55)",
+        "tonalRamp": [
+          "oklch(0.15 0.017 55)",
+          "oklch(0.27 0.027 55)",
+          "oklch(0.39 0.037 55)",
+          "oklch(0.51 0.047 55)",
+          "oklch(0.63 0.043 55)",
+          "oklch(0.75 0.033 55)",
+          "oklch(0.86 0.024 55)",
+          "oklch(0.95 0.017 55)"
+        ]
+      },
+      "nuit-filet-separation": {
+        "role": "neutral",
+        "displayName": "Filet de séparation (sombre)",
+        "canonical": "oklch(0.32 0.006 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.006 70)",
+          "oklch(0.27 0.006 70)",
+          "oklch(0.39 0.006 70)",
+          "oklch(0.51 0.006 70)",
+          "oklch(0.63 0.006 70)",
+          "oklch(0.75 0.006 70)",
+          "oklch(0.86 0.006 70)",
+          "oklch(0.95 0.006 70)"
+        ]
+      },
+      "nuit-filet-case": {
+        "role": "neutral",
+        "displayName": "Filet de case (sombre)",
+        "canonical": "oklch(0.43 0.01 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.010 70)",
+          "oklch(0.27 0.010 70)",
+          "oklch(0.39 0.010 70)",
+          "oklch(0.51 0.010 70)",
+          "oklch(0.63 0.010 70)",
+          "oklch(0.75 0.010 70)",
+          "oklch(0.86 0.010 70)",
+          "oklch(0.95 0.010 70)"
+        ]
+      },
+      "nuit-vert-trouve": {
+        "role": "tertiary",
+        "displayName": "Vert trouvé (sombre)",
+        "canonical": "oklch(0.74 0.11 150)",
+        "tonalRamp": [
+          "oklch(0.15 0.037 150)",
+          "oklch(0.27 0.059 150)",
+          "oklch(0.39 0.081 150)",
+          "oklch(0.51 0.103 150)",
+          "oklch(0.63 0.095 150)",
+          "oklch(0.75 0.073 150)",
+          "oklch(0.86 0.053 150)",
+          "oklch(0.95 0.037 150)"
+        ]
+      },
+      "nuit-rouge-absent": {
+        "role": "tertiary",
+        "displayName": "Rouge absent (sombre)",
+        "canonical": "oklch(0.7 0.15 30)",
+        "tonalRamp": [
+          "oklch(0.15 0.050 30)",
+          "oklch(0.27 0.080 30)",
+          "oklch(0.39 0.110 30)",
+          "oklch(0.51 0.140 30)",
+          "oklch(0.63 0.130 30)",
+          "oklch(0.75 0.100 30)",
+          "oklch(0.86 0.073 30)",
+          "oklch(0.95 0.050 30)"
+        ]
+      },
+      "nuit-ocre-base-b": {
+        "role": "secondary",
+        "displayName": "Ocre base B (sombre)",
+        "canonical": "oklch(0.78 0.1 60)",
+        "tonalRamp": [
+          "oklch(0.15 0.033 60)",
+          "oklch(0.27 0.053 60)",
+          "oklch(0.39 0.073 60)",
+          "oklch(0.51 0.093 60)",
+          "oklch(0.63 0.087 60)",
+          "oklch(0.75 0.067 60)",
+          "oklch(0.86 0.048 60)",
+          "oklch(0.95 0.033 60)"
+        ]
+      },
+      "nuit-rail": {
+        "role": "neutral",
+        "displayName": "Rail (sombre)",
+        "canonical": "oklch(0.14 0.004 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.004 70)",
+          "oklch(0.27 0.004 70)",
+          "oklch(0.39 0.004 70)",
+          "oklch(0.51 0.004 70)",
+          "oklch(0.63 0.004 70)",
+          "oklch(0.75 0.004 70)",
+          "oklch(0.86 0.004 70)",
+          "oklch(0.95 0.004 70)"
+        ]
+      },
+      "nuit-rail-texte": {
+        "role": "neutral",
+        "displayName": "Texte du rail (sombre)",
+        "canonical": "oklch(0.92 0.008 85)",
+        "tonalRamp": [
+          "oklch(0.15 0.008 85)",
+          "oklch(0.27 0.008 85)",
+          "oklch(0.39 0.008 85)",
+          "oklch(0.51 0.008 85)",
+          "oklch(0.63 0.008 85)",
+          "oklch(0.75 0.008 85)",
+          "oklch(0.86 0.008 85)",
+          "oklch(0.95 0.008 85)"
+        ]
+      },
+      "nuit-rail-attenue": {
+        "role": "neutral",
+        "displayName": "Rail atténué (sombre)",
+        "canonical": "oklch(0.7 0.01 80)",
+        "tonalRamp": [
+          "oklch(0.15 0.010 80)",
+          "oklch(0.27 0.010 80)",
+          "oklch(0.39 0.010 80)",
+          "oklch(0.51 0.010 80)",
+          "oklch(0.63 0.010 80)",
+          "oklch(0.75 0.010 80)",
+          "oklch(0.86 0.010 80)",
+          "oklch(0.95 0.010 80)"
+        ]
+      },
+      "nuit-rail-survol": {
+        "role": "neutral",
+        "displayName": "Survol du rail (sombre)",
+        "canonical": "oklch(0.24 0.005 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.005 70)",
+          "oklch(0.27 0.005 70)",
+          "oklch(0.39 0.005 70)",
+          "oklch(0.51 0.005 70)",
+          "oklch(0.63 0.005 70)",
+          "oklch(0.75 0.005 70)",
+          "oklch(0.86 0.005 70)",
+          "oklch(0.95 0.005 70)"
+        ]
+      },
+      "nuit-rail-filet": {
+        "role": "neutral",
+        "displayName": "Filet du rail (sombre)",
+        "canonical": "oklch(0.28 0.005 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.005 70)",
+          "oklch(0.27 0.005 70)",
+          "oklch(0.39 0.005 70)",
+          "oklch(0.51 0.005 70)",
+          "oklch(0.63 0.005 70)",
+          "oklch(0.75 0.005 70)",
+          "oklch(0.86 0.005 70)",
+          "oklch(0.95 0.005 70)"
+        ]
+      },
+      "nuit-landing-filet-haut": {
+        "role": "neutral",
+        "displayName": "Filet haut (landing) (sombre)",
+        "canonical": "oklch(0.45 0.03 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.010 70)",
+          "oklch(0.27 0.016 70)",
+          "oklch(0.39 0.022 70)",
+          "oklch(0.51 0.028 70)",
+          "oklch(0.63 0.026 70)",
+          "oklch(0.75 0.020 70)",
+          "oklch(0.86 0.015 70)",
+          "oklch(0.95 0.010 70)"
+        ]
+      },
+      "nuit-landing-bouton-survol": {
+        "role": "neutral",
+        "displayName": "landing-bouton-survol (sombre)",
+        "canonical": "oklch(0.86 0.008 85)",
+        "tonalRamp": [
+          "oklch(0.15 0.008 85)",
+          "oklch(0.27 0.008 85)",
+          "oklch(0.39 0.008 85)",
+          "oklch(0.51 0.008 85)",
+          "oklch(0.63 0.008 85)",
+          "oklch(0.75 0.008 85)",
+          "oklch(0.86 0.008 85)",
+          "oklch(0.95 0.008 85)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Titre de la landing dès 768px (2.75rem mobile, 3.75rem dès 640px), un mot en italique."
+      },
+      "display-sm": {
+        "displayName": "Display (≥640px)",
+        "purpose": "Palier intermédiaire du titre de la landing."
+      },
+      "display-mobile": {
+        "displayName": "Display (mobile)",
+        "purpose": "Titre de la landing sous 640px."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Titre de l'écran d'accueil vide du back office (2.25rem, 3rem dès 768px)."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Nom de la base ou du croisement en tête du back office."
+      },
+      "title-dialog": {
+        "displayName": "Titre de dialogue",
+        "purpose": "Ajouter une base, Croiser deux bases."
+      },
+      "title-record": {
+        "displayName": "Titre de fiche",
+        "purpose": "Nom de la personne dans la fiche détail."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "« Sheet Explorer » à côté du monogramme."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Description sous le titre de la landing."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Texte d'interface, valeurs de la fiche."
+      },
+      "body-dense": {
+        "displayName": "Body dense",
+        "purpose": "Cellules et en-têtes du tableau, pieds, barre de la landing."
+      },
+      "label-section": {
+        "displayName": "Label de section",
+        "purpose": "Groupes du rail, bandeaux de groupe de la fiche (majuscules)."
+      },
+      "label-mono": {
+        "displayName": "Label mono",
+        "purpose": "Légende « Données fictives », pastilles A B C D."
+      },
+      "rubric": {
+        "displayName": "Rubrique",
+        "purpose": "Numéros de colonne encadrés."
+      },
+      "stamp": {
+        "displayName": "Tampon",
+        "purpose": "Trouvé dans B / Absent de B, capitales condensées."
+      }
+    },
+    "shadows": [
+      {
+        "name": "vitrine",
+        "value": "0 30px 60px -40px rgb(40 30 20 / 0.45)",
+        "purpose": "Cadre de la vidéo de la landing, seule ombre portée du produit."
+      },
+      {
+        "name": "filet-selection",
+        "value": "inset 0 1px 0 var(--primary), inset 0 -1px 0 var(--primary)",
+        "purpose": "Ligne sélectionnée du tableau (filet gauche ajouté sur la première cellule)."
+      },
+      {
+        "name": "filet-focus",
+        "value": "inset 2px 0 0 var(--ring)",
+        "purpose": "Ligne du tableau focalisée au clavier."
+      },
+      {
+        "name": "anneau-focus-landing",
+        "value": "0 0 0 2px var(--l-bg), 0 0 0 4px var(--l-ink)",
+        "purpose": "Focus des boutons de la landing (ring 2px, offset 2px)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-standard",
+        "value": "150ms cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Changements de fond des boutons (transition Tailwind par défaut)."
+      },
+      {
+        "name": "press",
+        "value": "translateY(1px)",
+        "purpose": "Appui sur un bouton shadcn."
+      },
+      {
+        "name": "video-loop",
+        "value": "muted loop playsinline",
+        "purpose": "Vidéo de démonstration de la landing ; reste en pause si mouvement réduit."
+      },
+      {
+        "name": "scroll-smooth",
+        "value": "scroll-behavior: smooth",
+        "purpose": "Ancre « Voir la démo » ; désactivé si mouvement réduit."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "0.01ms",
+        "purpose": "Durée des animations et transitions sous prefers-reduced-motion."
+      },
+      {
+        "name": "theme-switch",
+        "value": "none",
+        "purpose": "Changement de thème sans transition (disableTransitionOnChange)."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "2xl",
+        "value": "1536px"
+      }
+    ],
+    "logo": {
+      "description": "Monogramme « S » de onze cellules (20 unités, rx 3, pas de 24) à la couleur courante, suivi de « Sheet Explorer » en Newsreader 1.25rem. Icône d'onglet : même dessin sur carré rx 32/148, #262420 sur #f6f4ef, inversé en sombre.",
+      "files": [
+        "components/logo.tsx",
+        "app/icon.svg"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "Bouton principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Action principale du back office : encre noire sur crème, 32px, coins 8px.",
+      "html": "<button class=\"ds-btn-primary\">Ajouter une base</button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 10px;border:1px solid transparent;border-radius:var(--radius,0.5rem);background:var(--primary,oklch(0.22 0.004 70));color:var(--primary-foreground,oklch(0.97 0.006 85));font:500 14px Archivo,ui-sans-serif,system-ui,sans-serif;cursor:pointer;transition:all .15s cubic-bezier(.4,0,.2,1)}.ds-btn-primary:hover{background:color-mix(in oklch,var(--primary,oklch(0.22 0.004 70)) 80%,transparent)}.ds-btn-primary:focus-visible{outline:none;box-shadow:0 0 0 3px color-mix(in oklch,var(--ring,oklch(0.25 0.008 70)) 50%,transparent)}.ds-btn-primary:active{transform:translateY(1px)}"
+    },
+    {
+      "name": "Bouton contour",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Actions du bandeau d'outils (Filtrer, Colonnes, Exporter CSV).",
+      "html": "<button class=\"ds-btn-outline\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M3 6h18M7 12h10M10 18h4\"/></svg>Filtrer</button>",
+      "css": ".ds-btn-outline{display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 10px;border:1px solid var(--border,oklch(0.88 0.01 80));border-radius:var(--radius,0.5rem);background:var(--background,oklch(0.968 0.006 85));color:var(--foreground,oklch(0.25 0.008 70));font:500 14px Archivo,ui-sans-serif,system-ui,sans-serif;cursor:pointer;transition:all .15s}.ds-btn-outline:hover{background:var(--muted,oklch(0.935 0.008 80))}.ds-btn-outline:focus-visible{outline:none;box-shadow:0 0 0 3px color-mix(in oklch,var(--ring,oklch(0.25 0.008 70)) 50%,transparent)}"
+    },
+    {
+      "name": "Boutons de la landing",
+      "kind": "button",
+      "refersTo": "landing-button-dark",
+      "description": "Paire de la hero : bouton noir avec flèche et bouton contour blanc, 44px.",
+      "html": "<div class=\"ds-l-actions\"><button class=\"ds-l-dark\">Connecter un Google Sheet <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg></button><button class=\"ds-l-light\">Essayer avec la démo</button></div>",
+      "css": ".ds-l-actions{display:flex;gap:8px;flex-wrap:wrap;padding:16px;background:oklch(0.968 0.006 85)}.ds-l-dark,.ds-l-light{display:inline-flex;align-items:center;gap:8px;height:44px;padding:0 16px;border-radius:0.5rem;font:500 15px Archivo,ui-sans-serif,system-ui,sans-serif;cursor:pointer;transition:background-color .15s cubic-bezier(.4,0,.2,1)}.ds-l-dark{border:0;background:oklch(0.22 0.004 70);color:oklch(0.97 0.006 85)}.ds-l-dark:hover{background:oklch(0.3 0.004 70)}.ds-l-light{border:1px solid oklch(0.88 0.01 80);background:oklch(0.995 0.002 85);color:oklch(0.25 0.008 70)}.ds-l-light:hover{background:oklch(0.95 0.006 85)}.ds-l-dark:focus-visible,.ds-l-light:focus-visible{outline:none;box-shadow:0 0 0 2px oklch(0.968 0.006 85),0 0 0 4px oklch(0.25 0.008 70)}"
+    },
+    {
+      "name": "Rail",
+      "kind": "nav",
+      "refersTo": "sidebar",
+      "description": "Panneau sombre des bases et croisements ; l'entrée active s'inverse en crème.",
+      "html": "<nav class=\"ds-rail\"><div class=\"ds-rail-label\">Bases</div><a class=\"ds-rail-item is-active\" href=\"#\"><span>Recouvrement</span><small>Démonstration · recovery</small></a><a class=\"ds-rail-item\" href=\"#\"><span>Clients</span><small>Démonstration · clients</small></a></nav>",
+      "css": ".ds-rail{width:16rem;padding:12px 8px;background:var(--sidebar,oklch(0.22 0.004 70));color:var(--sidebar-foreground,oklch(0.93 0.008 85));font-family:Archivo,ui-sans-serif,system-ui,sans-serif}.ds-rail-label{padding:8px;font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--sidebar-muted,oklch(0.72 0.01 80))}.ds-rail-item{display:grid;height:44px;align-content:center;padding:0 8px;border-radius:0.4rem;color:inherit;text-decoration:none;font-size:14px;line-height:1.2;outline:none}.ds-rail-item small{font-size:11px;opacity:.75}.ds-rail-item:hover{background:var(--sidebar-accent,oklch(0.3 0.004 70))}.ds-rail-item:focus-visible{box-shadow:0 0 0 2px var(--sidebar-ring,oklch(0.8 0.015 75))}.ds-rail-item.is-active{background:var(--sidebar-primary,oklch(0.968 0.006 85));color:var(--sidebar-primary-foreground,oklch(0.22 0.004 70));font-weight:600}"
+    },
+    {
+      "name": "Tableau",
+      "kind": "custom",
+      "refersTo": "table-header",
+      "description": "En-tête numéroté souligné d'encre, ligne sélectionnée pêche encadrée, tampons en colonne de correspondance.",
+      "html": "<table class=\"ds-table\"><thead><tr><th>Correspondance</th><th><span class=\"ds-rub\">A·04</span> Prénom</th><th><span class=\"ds-rub\">A·05</span> Nom</th></tr></thead><tbody><tr><td><span class=\"ds-stamp ds-miss\">Absent de B</span></td><td>Léa</td><td>Laurent</td></tr><tr class=\"is-sel\"><td><span class=\"ds-stamp ds-found\">Trouvé dans B</span></td><td>Margaux</td><td>Mathieu</td></tr></tbody></table>",
+      "css": ".ds-table{border-collapse:separate;border-spacing:0;background:oklch(0.968 0.006 85);color:oklch(0.25 0.008 70);font:13px Archivo,ui-sans-serif,system-ui,sans-serif;font-variant-numeric:tabular-nums}.ds-table th{height:40px;padding:0 10px;text-align:left;font-weight:600;border-bottom:1px solid color-mix(in oklch,oklch(0.25 0.008 70) 80%,transparent)}.ds-table td{padding:8px 10px;border-bottom:1px solid oklch(0.88 0.01 80)}.ds-table tbody tr{cursor:pointer}.ds-table tbody tr:hover td{background:oklch(0.935 0.008 80)}.ds-table tr.is-sel td{background:oklch(0.91 0.045 60);box-shadow:inset 0 1px 0 oklch(0.22 0.004 70),inset 0 -1px 0 oklch(0.22 0.004 70)}.ds-table tr.is-sel td:nth-child(n+2){font-weight:600}.ds-rub{display:inline-flex;align-items:center;justify-content:center;height:16px;min-width:24px;padding:0 4px;border:1px solid color-mix(in oklch,oklch(0.22 0.004 70) 60%,transparent);border-radius:3px;font:500 10px/1 'Geist Mono',ui-monospace,monospace;vertical-align:middle}.ds-stamp{display:inline-flex;padding:0 6px;border:1px solid;border-radius:2px;font-size:10px;line-height:16px;font-weight:600;letter-spacing:.025em;text-transform:uppercase;font-stretch:88%;white-space:nowrap}.ds-found{color:oklch(0.48 0.1 150)}.ds-miss{color:oklch(0.53 0.17 30)}"
+    },
+    {
+      "name": "Rubrique",
+      "kind": "chip",
+      "refersTo": "rubric",
+      "description": "Numéro de colonne encadré en Geist Mono ; encre pour A, ocre pour B.",
+      "html": "<span class=\"ds-rubric\">A·06</span> <span class=\"ds-rubric ds-rubric-b\">B·01</span>",
+      "css": ".ds-rubric{display:inline-flex;align-items:center;justify-content:center;height:16px;min-width:24px;padding:0 4px;border:1px solid color-mix(in oklch,var(--primary,oklch(0.22 0.004 70)) 60%,transparent);border-radius:3px;color:var(--primary,oklch(0.22 0.004 70));font:500 10px/1 'Geist Mono',ui-monospace,monospace;font-variant-numeric:tabular-nums}.ds-rubric-b{border-color:color-mix(in oklch,var(--source-b,oklch(0.5 0.11 50)) 70%,transparent);color:var(--source-b,oklch(0.5 0.11 50))}"
+    },
+    {
+      "name": "Tampons",
+      "kind": "chip",
+      "refersTo": "stamp-found",
+      "description": "État d'un croisement inscrit sur la ligne ; version fiche plus grande et inclinée.",
+      "html": "<span class=\"ds-st ds-st-found\">Trouvé dans B</span> <span class=\"ds-st ds-st-miss\">Absent de B</span> <span class=\"ds-st ds-st-miss ds-st-lg\">Absent de B</span>",
+      "css": ".ds-st{display:inline-flex;align-items:center;padding:0 6px;border:1px solid;border-radius:2px;font:600 10px/16px Archivo,ui-sans-serif,sans-serif;letter-spacing:.025em;text-transform:uppercase;font-stretch:88%;white-space:nowrap}.ds-st-found{color:var(--success,oklch(0.48 0.1 150))}.ds-st-miss{color:var(--destructive,oklch(0.53 0.17 30))}.ds-st-lg{border-width:2px;padding:2px 8px;font-size:12px;transform:rotate(-1deg)}"
+    },
+    {
+      "name": "Cases de la fiche",
+      "kind": "card",
+      "refersTo": "record-field",
+      "description": "Champs d'une ligne en grille de cases à filet, clé comparée contournée de vert.",
+      "html": "<div class=\"ds-rec\"><div class=\"ds-rec-band\">Base A · Recouvrement</div><dl class=\"ds-rec-grid\"><div class=\"ds-rec-f\"><dt><span class=\"ds-r\">A·05</span> Nom</dt><dd>Lefèvre</dd></div><div class=\"ds-rec-f is-key\"><dt><span class=\"ds-r\">A·06</span> Téléphone <b>clé</b></dt><dd>06 39 98 98 68</dd></div><div class=\"ds-rec-f is-wide\"><dt><span class=\"ds-r\">A·08</span> Email</dt><dd>zoe.lefevre@example.com</dd></div></dl></div>",
+      "css": ".ds-rec{width:340px;background:oklch(0.968 0.006 85);color:oklch(0.25 0.008 70);font-family:Archivo,ui-sans-serif,sans-serif}.ds-rec-band{padding:4px 8px;background:oklch(0.935 0.01 80);color:oklch(0.32 0.01 70);font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase}.ds-rec-grid{display:grid;grid-template-columns:1fr 1fr;margin:0;border-top:1px solid oklch(0.8 0.015 75);border-left:1px solid oklch(0.8 0.015 75)}.ds-rec-f{min-height:52px;padding:6px 10px 8px;border-right:1px solid oklch(0.8 0.015 75);border-bottom:1px solid oklch(0.8 0.015 75)}.ds-rec-f:hover{background:oklch(0.94 0.008 80)}.ds-rec-f.is-wide{grid-column:span 2}.ds-rec-f.is-key{background:color-mix(in oklch,oklch(0.48 0.1 150) 8%,transparent);outline:2px solid oklch(0.48 0.1 150);outline-offset:-2px}.ds-rec-f dt{display:flex;align-items:center;gap:6px;font-size:11px;color:oklch(0.47 0.01 70)}.ds-rec-f dt b{color:oklch(0.48 0.1 150)}.ds-rec-f dd{margin:4px 0 0;font-size:14px}.ds-r{display:inline-flex;height:16px;min-width:24px;padding:0 4px;align-items:center;justify-content:center;border:1px solid color-mix(in oklch,oklch(0.22 0.004 70) 60%,transparent);border-radius:3px;color:oklch(0.22 0.004 70);font:500 10px/1 'Geist Mono',ui-monospace,monospace}"
+    },
+    {
+      "name": "Cadre vidéo de la landing",
+      "kind": "card",
+      "refersTo": "landing-video-frame",
+      "description": "Vitrine de la démonstration : figure à 8px, anneau de filet, ombre unique, légende « Données fictives ».",
+      "html": "<figure class=\"ds-vframe\"><div class=\"ds-vframe-media\"></div><figcaption><span>Coller un lien, chercher une personne, ouvrir sa fiche, croiser deux bases.</span><span class=\"ds-vframe-tag\">Données fictives</span></figcaption></figure>",
+      "css": ".ds-vframe{margin:24px;overflow:hidden;border-radius:0.5rem;background:oklch(0.995 0.002 85);box-shadow:0 0 0 1px oklch(0.88 0.01 80),0 30px 60px -40px rgb(40 30 20/.45)}.ds-vframe-media{aspect-ratio:1280/712;background:oklch(0.935 0.008 80)}.ds-vframe figcaption{display:flex;justify-content:space-between;gap:8px;padding:12px 16px;border-top:1px solid oklch(0.88 0.01 80);font:13px Archivo,ui-sans-serif,sans-serif;color:oklch(0.48 0.01 70)}.ds-vframe-tag{font:11px 'Geist Mono',ui-monospace,monospace;letter-spacing:.05em;text-transform:uppercase}"
+    },
+    {
+      "name": "Puce de filtre",
+      "kind": "chip",
+      "refersTo": "filter-chip",
+      "description": "Filtre actif dans la rangée sous le bandeau d'outils.",
+      "html": "<span class=\"ds-fchip\"><button>Pays contient « fr »</button><button aria-label=\"Retirer\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M18 6 6 18M6 6l12 12\"/></svg></button></span>",
+      "css": ".ds-fchip{display:inline-flex;height:28px;overflow:hidden;border:1px solid color-mix(in oklch,oklch(0.22 0.004 70) 40%,transparent);border-radius:0.3rem;background:oklch(0.968 0.006 85);font:12px Archivo,ui-sans-serif,sans-serif}.ds-fchip button{display:flex;align-items:center;padding:0 6px;border:0;background:none;color:oklch(0.25 0.008 70);font:inherit;cursor:pointer;outline:none}.ds-fchip button:hover,.ds-fchip button:focus-visible{background:oklch(0.94 0.008 80)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Le registre sur papier crème",
+    "overview": "Un seul monde pour la landing (« / ») et le back office (« /app »), tiré de la référence épinglée par l'utilisateur : papier crème chaud, encre brun-noir à peine teintée, titres en serif Newsreader, petites étiquettes et numéros en Geist Mono, texte courant en Archivo. Le monde est calme et éditorial à l'extérieur, précis comme un registre à l'intérieur : chaque colonne découverte devient une rubrique numérotée (« 01 », « A·06 », « B·01 ») qui la désigne partout, dans l'en-tête du tableau, les filtres, la fiche et la correspondance d'un croisement.\n\nLa landing tient en trois blocs (barre, hero, pied) et montre le vrai produit dans une vidéo encadrée. Le back office pose un rail en panneau sombre à gauche, un bandeau d'outils teinté, un tableau à filets fins et une fiche en cases à droite. La couleur ne décore rien : le neutre chaud porte tout, la teinte pêche marque la ligne sélectionnée, l'ocre signe la base B, et le vert et le rouge ne disent que « trouvé » et « absent » (ou une erreur).\n\nClair par défaut (suit le système), sombre disponible avec les mêmes rôles. L'ancien monde « Cerfa » bleu administratif est abandonné.",
+    "keyCharacteristics": [
+      "Papier crème et encre brun-noir, teinte 70-85, chroma quasi nulle.",
+      "Newsreader pour toute voix de titre, avec un seul mot en italique dans le titre de la landing.",
+      "Rubriques encadrées en Geist Mono, adressables d'un bout à l'autre de l'app.",
+      "Filets fins à la place des ombres ; une seule ombre portée, sous la vidéo.",
+      "Couleur de sens réservée : vert trouvé, rouge absent ou erreur, ocre base B, pêche sélection."
+    ],
+    "rules": [
+      {
+        "name": "The Colour Means Something Rule",
+        "body": "Le vert et le rouge ne servent qu'à « trouvé », « absent » et aux erreurs ; aucun bouton, lien ou décor ne les emprunte.",
+        "section": "colors"
+      },
+      {
+        "name": "The B Is Ochre Rule",
+        "body": "Tout ce qui vient de la base B porte l'ocre ; la base A reste à l'encre. Jamais l'inverse, jamais une troisième teinte de source.",
+        "section": "colors"
+      },
+      {
+        "name": "The Peach Is Selection Rule",
+        "body": "La pêche marque la ligne sélectionnée et rien d'autre ; le survol reste neutre (fond muet) pour que survol et sélection ne se confondent jamais.",
+        "section": "colors"
+      },
+      {
+        "name": "The Serif Speaks Rule",
+        "body": "Toute voix de titre (landing, base, fiche, dialogue, wordmark) est en Newsreader 400 ; on hiérarchise par l'échelle, jamais par la graisse.",
+        "section": "typography"
+      },
+      {
+        "name": "The Numbers Align Rule",
+        "body": "Tableaux et éléments `.tabular` utilisent des chiffres tabulaires ; clés et rubriques sont en chasse fixe.",
+        "section": "typography"
+      },
+      {
+        "name": "The Rules Not Shadows Rule",
+        "body": "La profondeur vient des filets et des aplats ; l'ombre portée reste l'exception unique de la vitrine vidéo.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** poser chaque titre en Newsreader 400 et hiérarchiser par la taille (4.25rem, 3rem, 28px, 22px).",
+      "**Do** précéder chaque libellé de colonne de sa rubrique, partout où la colonne apparaît.",
+      "**Do** inscrire l'état d'un croisement par un tampon sur la ligne plutôt que de masquer la ligne.",
+      "**Do** séparer par des filets (filet-separation pour les zones, filet-case pour les cases et les champs).",
+      "**Do** garder la landing à trois blocs : barre, hero avec vidéo, pied « Un produit Hevolue »."
+    ],
+    "donts": [
+      "**Don't** placer de surtitre (eyebrow) au-dessus d'un titre : le titre de la landing ouvre directement la page.",
+      "**Don't** introduire de notion de compte, de connexion utilisateur ou d'avatar : « Connecter » s'applique à un Google Sheet.",
+      "**Don't** utiliser le vert ou le rouge pour autre chose que trouvé, absent ou erreur.",
+      "**Don't** ajouter d'ombre portée hors de la vitrine vidéo de la landing.",
+      "**Don't** inventer de client, de chiffre ou de témoignage ; les données montrées sont fictives et le disent.",
+      "**Don't** ramener le bleu administratif de l'ancien monde « Cerfa »."
+    ]
+  }
+}

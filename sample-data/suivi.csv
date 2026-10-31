@@ -1,0 +1,501 @@
+Name,Email,Phone,Country,Date,Statut,Commentaire,Date de rappel
+Nathan Duval,  nathan.duval2@example.com ,06.39.98.18.04,France,2026-08-15,Promesse de paiement,A promis un virement,21/08/2026
+Chloé Nguyen,chloe.nguyen@example.com,06.39.98.96.35,Suisse,2026-06-26,Promesse de paiement,,03/07/2026
+Sacha Morel,sacha.morel2@example.com,06.39.98.49.04,France,2026-04-28,En cours,Ne répond pas,03/05/2026
+Jules Robin,jules.robin@example.com,06.39.98.75.90,France,2026-01-05,Promesse de paiement,,22/01/2026
+Sacha André,sacha.andre2@example.com,06.39.98.87.13,Canada,2026-08-09,Injoignable,,18/08/2026
+Yanis Vincent,  yanis.vincent@example.com ,01.99.00.75.41,Canada,2026-03-03,Injoignable,,07/03/2026
+Hugo Masson,hugo.masson@example.com,06.39.98.57.81,Canada,2026-08-03,À rappeler,Ne répond pas,21/08/2026
+Salomé Petit,salome.petit2@example.com,06.39.98.39.37,Canada,2026-09-20,Clôturé,,
+Inès Lefebvre,ines.lefebvre2@example.com,06.39.98.63.03,Belgique,2026-10-29,Promesse de paiement,Demande un échéancier sur 3 mois,21/11/2026
+Inès Lopez,ines.lopez4@example.com,01.99.00.08.45,Canada,2026-04-30,En cours,Dossier transmis au service juridique,28/05/2026
+Lina Nicolas,  lina.nicolas@example.com ,06.39.98.88.67,France,2026-02-04,À rappeler,,06/03/2026
+Zoé Faure,zoe.faure@example.com,06.39.98.99.97,France,2026-02-01,Promesse de paiement,A promis un virement,04/02/2026
+Lucas Chevalier,lucas.chevalier2@example.com,06.39.98.96.08,Suisse,2026-05-16,À rappeler,Ne répond pas,17/05/2026
+Emma Boyer,emma.boyer2@example.com,06.39.98.19.47,France,2026-08-10,Promesse de paiement,,16/08/2026
+Lucas Fournier,lucas.fournier2@example.com,06.39.98.12.72,Belgique,2026-04-20,Clôturé,Dossier transmis au service juridique,
+Ethan Mercier,  ethan.mercier@example.com ,06.39.98.98.42,Canada,2026-06-12,Injoignable,,09/07/2026
+Camille Fournier,camille.fournier2@example.com,06.39.98.32.04,Canada,2026-04-21,À rappeler,,08/05/2026
+Arthur Roux,arthur.roux2@example.com,01.99.00.86.75,Canada,2026-06-24,Clôturé,Demande un échéancier sur 3 mois,
+Raphaël Thomas,raphael.thomas@example.com,01.99.00.60.31,Suisse,2026-07-03,Clôturé,,
+Loïc Morin,loic.morin@example.com,06.39.98.01.58,France,2026-01-11,Clôturé,,
+Gabriel Legrand,  gabriel.legrand2@example.com ,06.39.98.89.21,France,2026-04-06,Clôturé,A promis un virement,
+Loïc Legrand,loic.legrand@example.com,06.39.98.41.25,Belgique,2026-08-01,Clôturé,,
+Maëlle Petit,maelle.petit@example.com,01.99.00.79.25,Canada,2026-06-05,Promesse de paiement,A promis un virement,01/07/2026
+Gabriel Lopez,gabriel.lopez@example.com,06.39.98.70.25,France,2026-07-06,À rappeler,,30/07/2026
+Bastien Gautier,bastien.gautier2@example.com,06.39.98.00.03,Canada,2026-01-03,Clôturé,,
+Gabriel Nicolas,  gabriel.nicolas@example.com ,06.39.98.09.56,France,2026-04-02,En cours,,02/05/2026
+Rose Garcia,rose.garcia@example.com,06.39.98.12.18,Belgique,2026-04-15,Injoignable,Ne répond pas,16/04/2026
+Camille Roussel,camille.roussel@example.com,06.39.98.18.72,Suisse,2026-02-20,Clôturé,A promis un virement,
+Nathan Morin,nathan.morin@example.com,06.39.98.76.03,Suisse,2026-09-14,À rappeler,Dossier transmis au service juridique,17/09/2026
+Lina Bonnet,lina.bonnet@example.com,06.39.98.13.41,France,2026-01-10,Clôturé,Adresse à vérifier,
+Louise Michel,  louise.michel2@example.com ,06.39.98.03.03,Suisse,2026-04-24,Promesse de paiement,Ne répond pas,05/05/2026
+Mathis Morin,mathis.morin@example.com,06.39.98.84.19,Belgique,2026-03-02,Clôturé,Demande un échéancier sur 3 mois,
+Yanis Fournier,yanis.fournier@example.com,06.39.98.19.97,Suisse,2026-02-20,Promesse de paiement,,23/02/2026
+Théo Gauthier,theo.gauthier@example.com,01.99.00.63.09,Canada,2026-05-17,En cours,,09/06/2026
+Hugo Simon,hugo.simon3@example.com,06.39.98.11.22,Canada,2026-09-13,À rappeler,Dossier transmis au service juridique,22/09/2026
+Bastien Faure,  bastien.faure@example.com ,06.39.98.15.50,Suisse,2026-02-27,À rappeler,Ne répond pas,14/03/2026
+Chloé Bonnet,chloe.bonnet3@example.com,06.39.98.72.10,France,2026-04-16,À rappeler,Rappeler en fin de journée,22/04/2026
+Océane Sanchez,oceane.sanchez2@example.com,01.99.00.35.21,Suisse,2026-05-30,Clôturé,A promis un virement,
+Adam Boyer,adam.boyer2@example.com,06.39.98.42.80,France,2026-08-23,À rappeler,,18/09/2026
+Jade Lopez,jade.lopez@example.com,06.39.98.59.81,Suisse,2026-04-17,Clôturé,,
+Jade Lemaire,  jade.lemaire@example.com ,06.39.98.07.82,Belgique,2026-06-24,À rappeler,Adresse à vérifier,24/07/2026
+Loïc Michel,loic.michel@example.com,06.39.98.43.99,Suisse,2026-09-28,En cours,,23/10/2026
+Margaux Denis,margaux.denis@example.com,06.39.98.67.34,France,2026-01-07,Clôturé,,
+Maëlle Laurent,maelle.laurent@example.com,06.39.98.63.16,Belgique,2026-04-11,Promesse de paiement,A promis un virement,01/05/2026
+Margaux Dumont,margaux.dumont@example.com,06.39.98.83.87,France,2026-09-03,Promesse de paiement,Dossier transmis au service juridique,18/09/2026
+Adam Bonnet,  adam.bonnet@example.com ,06.39.98.81.06,Suisse,2026-10-26,Clôturé,Demande un échéancier sur 3 mois,
+Emma Legrand,emma.legrand@example.com,06.39.98.22.05,Canada,2026-08-25,Injoignable,,20/09/2026
+Inès Dumont,ines.dumont@example.com,06.39.98.27.02,France,2026-03-12,À rappeler,Ne répond pas,20/03/2026
+Ethan Muller,ethan.muller@example.com,06.39.98.59.36,Suisse,2026-07-16,En cours,,29/07/2026
+Margaux Mathieu,margaux.mathieu3@example.com,06.39.98.56.59,Belgique,2026-08-20,Clôturé,Rappeler en fin de journée,
+Zoé Mathieu,  zoe.mathieu@example.com ,06.39.98.75.22,France,2026-09-29,Promesse de paiement,Ne répond pas,22/10/2026
+Grégoire Guérin,gregoire.guerin@example.com,06.39.98.27.61,Suisse,2026-04-04,En cours,Adresse à vérifier,18/04/2026
+Louise Nguyen,louise.nguyen@example.com,06.39.98.32.47,Suisse,2026-09-16,Promesse de paiement,A promis un virement,25/09/2026
+Gabriel Sanchez,gabriel.sanchez@example.com,06.39.98.82.62,Canada,2026-07-17,Promesse de paiement,,01/08/2026
+Arthur Masson,arthur.masson@example.com,06.39.98.89.77,France,2026-07-27,Clôturé,A promis un virement,
+Élodie Durand,  elodie.durand@example.com ,01.99.00.94.82,Suisse,2026-02-21,En cours,,23/02/2026
+Margaux Lambert,margaux.lambert2@example.com,01.99.00.60.10,Suisse,2026-09-25,À rappeler,,30/09/2026
+Ethan Dumont,ethan.dumont@example.com,01.99.00.53.63,Suisse,2026-02-27,Clôturé,Rappeler en fin de journée,
+Sacha Duval,sacha.duval2@example.com,06.39.98.44.15,Belgique,2026-03-06,Clôturé,,
+Léa Clément,lea.clement@example.com,06.39.98.83.89,Belgique,2026-06-02,En cours,Ne répond pas,09/06/2026
+Anaïs Girard,  anais.girard3@example.com ,06.39.98.54.44,France,2026-02-08,Clôturé,,
+Mathis Robert,mathis.robert@example.com,06.39.98.65.74,France,2026-05-21,Injoignable,Ne répond pas,17/06/2026
+Arthur Henry,arthur.henry@example.com,06.39.98.58.40,France,2026-06-05,En cours,Rappeler en fin de journée,19/06/2026
+Rose Michel,rose.michel@example.com,01.99.00.92.67,France,2026-04-01,À rappeler,Dossier transmis au service juridique,08/04/2026
+Raphaël Boyer,raphael.boyer@example.com,06.39.98.71.46,Suisse,2026-03-19,Injoignable,,03/04/2026
+Lucas Nicolas,  lucas.nicolas@example.com ,06.39.98.24.82,Belgique,2026-01-15,À rappeler,Dossier transmis au service juridique,23/01/2026
+Océane Guérin,oceane.guerin@example.com,01.99.00.18.45,France,2026-04-17,Injoignable,Adresse à vérifier,26/04/2026
+Adam Robin,adam.robin2@example.com,01.99.00.44.76,France,2026-06-06,À rappeler,,16/06/2026
+Salomé Rousseau,salome.rousseau@example.com,06.39.98.87.37,Canada,2026-10-24,À rappeler,Adresse à vérifier,11/11/2026
+Louis Richard,louis.richard@example.com,06.39.98.77.51,Belgique,2026-01-15,En cours,,06/02/2026
+Anaïs Michel,  anais.michel2@example.com ,06.39.98.86.98,Belgique,2026-08-21,Clôturé,Demande un échéancier sur 3 mois,
+Inès Gauthier,ines.gauthier2@example.com,06.39.98.95.56,Belgique,2026-01-05,Promesse de paiement,Demande un échéancier sur 3 mois,22/01/2026
+Camille Martin,camille.martin2@example.com,06.39.98.15.37,France,2026-03-26,À rappeler,Dossier transmis au service juridique,06/04/2026
+Jérôme Perrin,jerome.perrin@example.com,06.39.98.93.06,Suisse,2026-01-24,Injoignable,Ne répond pas,27/01/2026
+Noémie Roussel,noemie.roussel@example.com,06.39.98.45.56,Belgique,2026-05-20,En cours,A promis un virement,25/05/2026
+Maëlle Martin,  maelle.martin@example.com ,06.39.98.98.44,France,2026-05-09,Injoignable,,30/05/2026
+Noémie Boyer,noemie.boyer@example.com,06.39.98.02.49,France,2026-05-19,Clôturé,Adresse à vérifier,
+Nathan Lefebvre,nathan.lefebvre2@example.com,01.99.00.92.47,Belgique,2026-10-03,Injoignable,Dossier transmis au service juridique,02/11/2026
+Océane Thomas,oceane.thomas2@example.com,06.39.98.71.28,Suisse,2026-10-18,Promesse de paiement,Rappeler en fin de journée,06/11/2026
+Jérôme Masson,jerome.masson3@example.com,06.39.98.79.77,France,2026-10-04,Promesse de paiement,Ne répond pas,13/10/2026
+Théo Simon,  theo.simon2@example.com ,06.39.98.91.56,Canada,2026-08-05,À rappeler,Ne répond pas,14/08/2026
+Nathan Martin,nathan.martin@example.com,06.39.98.72.86,France,2026-03-18,Promesse de paiement,,03/04/2026
+Salomé François,salome.francois@example.com,06.39.98.47.95,Suisse,2026-08-31,À rappeler,,02/09/2026
+Loïc Robin,loic.robin2@example.com,01.99.00.14.11,France,2026-06-20,Clôturé,Rappeler en fin de journée,
+Alice Roux,alice.roux2@example.com,06.39.98.61.87,Suisse,2026-09-27,En cours,,19/10/2026
+Adam Fournier,  adam.fournier@example.com ,06.39.98.93.98,Canada,2026-08-01,En cours,Ne répond pas,28/08/2026
+Sacha Gauthier,sacha.gauthier2@example.com,06.39.98.12.46,Suisse,2026-02-01,En cours,Ne répond pas,21/02/2026
+Rose Lambert,rose.lambert2@example.com,06.39.98.28.68,Belgique,2026-03-03,Promesse de paiement,,30/03/2026
+Sacha Laurent,sacha.laurent@example.com,01.99.00.12.90,Suisse,2026-04-22,Clôturé,,
+Emma Denis,emma.denis3@example.com,06.39.98.03.25,France,2026-06-19,Injoignable,,13/07/2026
+Bastien Masson,  bastien.masson@example.com ,06.39.98.06.46,France,2026-10-22,Clôturé,Ne répond pas,
+Noé Henry,noe.henry@example.com,06.39.98.76.70,Canada,2026-05-26,Injoignable,Demande un échéancier sur 3 mois,12/06/2026
+Jérôme Joly,jerome.joly@example.com,06.39.98.39.54,Belgique,2026-10-16,Injoignable,A promis un virement,02/11/2026
+Grégoire Lemaire,gregoire.lemaire@example.com,06.39.98.07.37,France,2026-06-03,Promesse de paiement,,06/06/2026
+Anaïs Bonnet,anais.bonnet2@example.com,06.39.98.04.75,Belgique,2026-07-23,Injoignable,Dossier transmis au service juridique,22/08/2026
+Emma Girard,  emma.girard@example.com ,06.39.98.15.34,France,2026-09-08,En cours,,04/10/2026
+Rose Laurent,rose.laurent2@example.com,01.99.00.97.04,Suisse,2026-10-26,En cours,Ne répond pas,03/11/2026
+Léa Boyer,lea.boyer@example.com,06.39.98.19.99,France,2026-02-18,En cours,,04/03/2026
+Emma Denis,emma.denis5@example.com,06.39.98.04.84,Suisse,2026-09-13,Promesse de paiement,Ne répond pas,28/09/2026
+Grégoire Muller,gregoire.muller@example.com,06.39.98.15.95,France,2026-04-11,En cours,Adresse à vérifier,26/04/2026
+Maëlle Morel,  maelle.morel2@example.com ,06.39.98.79.92,Belgique,2026-05-13,Promesse de paiement,,08/06/2026
+Emma Petit,emma.petit3@example.com,01.99.00.38.83,France,2026-03-29,Clôturé,,
+Théo Gautier,theo.gautier@example.com,06.39.98.60.08,Suisse,2026-08-21,En cours,,02/09/2026
+Arthur David,arthur.david2@example.com,06.39.98.47.58,Canada,2026-10-11,En cours,A promis un virement,21/10/2026
+Loïc Bertrand,loic.bertrand@example.com,06.39.98.60.01,Belgique,2026-08-30,À rappeler,Demande un échéancier sur 3 mois,17/09/2026
+Rose David,  rose.david@example.com ,06.39.98.47.08,Belgique,2026-02-16,Clôturé,Ne répond pas,
+Ethan Henry,ethan.henry3@example.com,06.39.98.27.24,Suisse,2026-05-31,Promesse de paiement,A promis un virement,21/06/2026
+Camille Boyer,camille.boyer@example.com,06.39.98.35.28,Suisse,2026-05-29,En cours,A promis un virement,27/06/2026
+Maëlle Bertrand,maelle.bertrand@example.com,01.99.00.25.12,Suisse,2026-10-05,Injoignable,,29/10/2026
+Léa Petit,lea.petit2@example.com,06.39.98.76.30,Canada,2026-10-22,Injoignable,,31/10/2026
+Clémence Legrand,  clemence.legrand@example.com ,06.39.98.88.80,Belgique,2026-07-26,Promesse de paiement,,23/08/2026
+Noé Gérard,noe.gerard2@example.com,06.39.98.69.77,France,2026-06-07,À rappeler,Dossier transmis au service juridique,23/06/2026
+Anaïs Perrin,anais.perrin@example.com,01.99.00.77.31,Belgique,2026-06-16,Clôturé,Dossier transmis au service juridique,
+Mathis Guérin,mathis.guerin@example.com,06.39.98.81.21,France,2026-02-08,Promesse de paiement,Dossier transmis au service juridique,18/02/2026
+Gabriel Lefèvre,gabriel.lefevre2@example.com,06.39.98.52.19,Suisse,2026-07-05,Promesse de paiement,,07/07/2026
+Clémence Lefebvre,  clemence.lefebvre2@example.com ,06.39.98.39.32,Suisse,2026-10-26,En cours,Demande un échéancier sur 3 mois,08/11/2026
+Mathis Martin,mathis.martin3@example.com,01.99.00.90.74,Suisse,2026-03-31,Injoignable,,09/04/2026
+Emma Roussel,emma.roussel@example.com,01.99.00.18.39,France,2026-04-13,En cours,Dossier transmis au service juridique,08/05/2026
+Anaïs Denis,anais.denis2@example.com,06.39.98.11.86,France,2026-09-27,Injoignable,Adresse à vérifier,24/10/2026
+Léa Garcia,lea.garcia@example.com,06.39.98.67.84,Belgique,2026-06-19,Injoignable,,15/07/2026
+Noé Nicolas,  noe.nicolas2@example.com ,06.39.98.94.30,Suisse,2026-07-18,Injoignable,,30/07/2026
+Nathan Richard,nathan.richard@example.com,06.39.98.10.44,Belgique,2026-01-16,Clôturé,,
+Inès Dupont,ines.dupont@example.com,01.99.00.52.45,Belgique,2026-10-10,Promesse de paiement,Demande un échéancier sur 3 mois,31/10/2026
+Loïc Rousseau,loic.rousseau@example.com,06.39.98.34.94,France,2026-06-14,Clôturé,Rappeler en fin de journée,
+Hugo Dumont,hugo.dumont@example.com,06.39.98.84.21,France,2026-02-03,Injoignable,Ne répond pas,17/02/2026
+Léa Moreau,  lea.moreau3@example.com ,06.39.98.63.78,Suisse,2026-09-11,Clôturé,,
+Inès Legrand,ines.legrand@example.com,01.99.00.33.51,Canada,2026-02-08,En cours,,01/03/2026
+Sacha Robert,sacha.robert@example.com,06.39.98.06.02,Belgique,2026-01-27,Clôturé,Rappeler en fin de journée,
+Jade Duval,jade.duval@example.com,06.39.98.86.54,France,2026-07-04,Injoignable,Adresse à vérifier,09/07/2026
+Bastien Clément,bastien.clement@example.com,06.39.98.66.31,Belgique,2026-02-19,À rappeler,,15/03/2026
+Clémence Boyer,  clemence.boyer3@example.com ,06.39.98.59.82,France,2026-03-03,Clôturé,Rappeler en fin de journée,
+Léo David,leo.david@example.com,01.99.00.26.32,France,2026-10-24,Promesse de paiement,A promis un virement,26/10/2026
+Clémence Masson,clemence.masson@example.com,06.39.98.21.69,Canada,2026-03-04,Injoignable,,30/03/2026
+Léa Roux,lea.roux2@example.com,06.39.98.38.77,Belgique,2026-04-14,En cours,,27/04/2026
+Ethan Joly,ethan.joly@example.com,06.39.98.00.87,Suisse,2026-01-14,Promesse de paiement,,09/02/2026
+Hugo Roussel,  hugo.roussel2@example.com ,06.39.98.43.08,Suisse,2026-10-20,Injoignable,Demande un échéancier sur 3 mois,09/11/2026
+Noémie Henry,noemie.henry@example.com,06.39.98.34.39,Suisse,2026-01-31,À rappeler,Rappeler en fin de journée,20/02/2026
+Louis Lambert,louis.lambert@example.com,01.99.00.62.67,Canada,2026-09-17,En cours,Demande un échéancier sur 3 mois,13/10/2026
+Adam Robin,adam.robin@example.com,06.39.98.41.13,Canada,2026-06-26,Clôturé,Dossier transmis au service juridique,
+Océane Henry,oceane.henry@example.com,01.99.00.20.08,France,2026-06-26,À rappeler,Rappeler en fin de journée,19/07/2026
+Jade Rousseau,  jade.rousseau@example.com ,06.39.98.97.71,Belgique,2026-06-26,En cours,Dossier transmis au service juridique,08/07/2026
+Zoé Lambert,zoe.lambert@example.com,06.39.98.91.62,France,2026-08-07,En cours,Demande un échéancier sur 3 mois,09/08/2026
+Raphaël Nicolas,raphael.nicolas@example.com,06.39.98.62.96,Suisse,2026-09-23,À rappeler,,02/10/2026
+Rose Gautier,rose.gautier2@example.com,06.39.98.95.70,Canada,2026-06-04,En cours,A promis un virement,13/06/2026
+Margaux Bertrand,margaux.bertrand@example.com,06.39.98.28.08,France,2026-08-21,À rappeler,Rappeler en fin de journée,23/08/2026
+Manon Lopez,  manon.lopez@example.com ,01.99.00.11.08,Canada,2026-10-03,En cours,Rappeler en fin de journée,29/10/2026
+Rose Morel,rose.morel@example.com,06.39.98.77.06,Canada,2026-10-23,À rappeler,,24/10/2026
+Chloé Lambert,chloe.lambert2@example.com,06.39.98.49.72,Belgique,2026-08-31,À rappeler,A promis un virement,02/09/2026
+Chloé Faure,chloe.faure@example.com,06.39.98.76.56,Suisse,2026-10-27,Injoignable,,21/11/2026
+Bastien Lefèvre,bastien.lefevre3@example.com,01.99.00.30.91,Belgique,2026-05-17,En cours,Demande un échéancier sur 3 mois,31/05/2026
+Bastien Rousseau,  bastien.rousseau2@example.com ,06.39.98.60.95,Belgique,2026-04-24,Promesse de paiement,,25/04/2026
+Jules Leroy,jules.leroy@example.com,01.99.00.89.83,Suisse,2026-07-06,À rappeler,,02/08/2026
+Hugo Roux,hugo.roux@example.com,06.39.98.31.81,France,2026-05-27,À rappeler,Rappeler en fin de journée,16/06/2026
+Adam Dubois,adam.dubois@example.com,06.39.98.56.75,France,2026-01-11,À rappeler,Adresse à vérifier,28/01/2026
+Manon Chevalier,manon.chevalier@example.com,06.39.98.05.19,France,2026-08-08,En cours,Demande un échéancier sur 3 mois,06/09/2026
+Arthur Roux,  arthur.roux3@example.com ,01.99.00.87.62,Canada,2026-04-13,Injoignable,,24/04/2026
+Yanis Lemaire,yanis.lemaire2@example.com,06.39.98.82.20,Suisse,2026-06-09,À rappeler,,01/07/2026
+Lucas Morel,lucas.morel@example.com,06.39.98.70.76,Canada,2026-04-17,À rappeler,Ne répond pas,28/04/2026
+Léo Muller,leo.muller@example.com,06.39.98.61.21,France,2026-05-02,Clôturé,Ne répond pas,
+Maëlle Morel,maelle.morel3@example.com,06.39.98.85.95,France,2026-10-16,À rappeler,Adresse à vérifier,15/11/2026
+Ethan Lefebvre,  ethan.lefebvre2@example.com ,01.99.00.97.47,Suisse,2026-02-20,Clôturé,Rappeler en fin de journée,
+Raphaël Lambert,raphael.lambert@example.com,06.39.98.21.40,Suisse,2026-01-20,Injoignable,,17/02/2026
+Maëlle Thomas,maelle.thomas@example.com,06.39.98.05.74,France,2026-04-30,Promesse de paiement,Adresse à vérifier,23/05/2026
+Théo Boyer,theo.boyer2@example.com,06.39.98.65.23,Suisse,2026-04-19,À rappeler,A promis un virement,18/05/2026
+Océane Nicolas,oceane.nicolas@example.com,06.39.98.36.26,Suisse,2026-03-06,En cours,,10/03/2026
+Raphaël Legrand,  raphael.legrand@example.com ,06.39.98.18.02,France,2026-05-26,Clôturé,Adresse à vérifier,
+Zoé Gérard,zoe.gerard2@example.com,06.39.98.49.94,Belgique,2026-09-09,Promesse de paiement,,01/10/2026
+Chloé Gérard,chloe.gerard@example.com,06.39.98.74.07,Belgique,2026-07-23,Promesse de paiement,Adresse à vérifier,02/08/2026
+Arthur Boyer,arthur.boyer2@example.com,06.39.98.65.25,France,2026-03-19,À rappeler,A promis un virement,13/04/2026
+Alice Garcia,alice.garcia2@example.com,06.39.98.31.19,France,2026-01-26,Injoignable,Demande un échéancier sur 3 mois,19/02/2026
+Manon Muller,  manon.muller@example.com ,06.39.98.46.03,France,2026-03-04,Injoignable,Demande un échéancier sur 3 mois,17/03/2026
+Zoé Bertrand,zoe.bertrand@example.com,06.39.98.59.55,Belgique,2026-09-22,Clôturé,,
+Théo Roux,theo.roux2@example.com,06.39.98.73.84,Belgique,2026-02-04,À rappeler,Adresse à vérifier,20/02/2026
+Léo David,leo.david2@example.com,06.39.98.07.63,Suisse,2026-02-14,Promesse de paiement,Ne répond pas,22/02/2026
+Anaïs Garnier,anais.garnier2@example.com,06.39.98.82.08,Canada,2026-02-24,Promesse de paiement,Adresse à vérifier,26/03/2026
+Noé Robin,  noe.robin@example.com ,06.39.98.39.66,France,2026-09-04,À rappeler,Rappeler en fin de journée,03/10/2026
+Rose Henry,rose.henry@example.com,06.39.98.29.28,Canada,2026-08-15,À rappeler,Rappeler en fin de journée,04/09/2026
+Hugo André,hugo.andre3@example.com,06.39.98.76.36,Canada,2026-01-28,En cours,Demande un échéancier sur 3 mois,17/02/2026
+Océane Sanchez,oceane.sanchez3@example.com,01.99.00.61.76,France,2026-08-12,Injoignable,,16/08/2026
+Jules Guérin,jules.guerin@example.com,06.39.98.83.14,France,2026-02-23,À rappeler,,26/02/2026
+Adam Simon,  adam.simon@example.com ,06.39.98.60.75,Suisse,2026-10-14,Injoignable,,18/10/2026
+Gabriel Rousseau,gabriel.rousseau@example.com,06.39.98.90.73,Belgique,2026-07-04,Clôturé,A promis un virement,
+Maëlle Masson,maelle.masson@example.com,06.39.98.45.79,Suisse,2026-10-26,Clôturé,,
+Arthur Martinez,arthur.martinez4@example.com,06.39.98.73.48,Suisse,2026-01-27,À rappeler,Dossier transmis au service juridique,17/02/2026
+Rose François,rose.francois@example.com,06.39.98.96.60,Belgique,2026-06-16,Promesse de paiement,,02/07/2026
+Élodie Thomas,  elodie.thomas@example.com ,06.39.98.95.48,Canada,2026-10-24,En cours,A promis un virement,25/10/2026
+Mathis Vincent,mathis.vincent@example.com,06.39.98.47.74,Suisse,2026-03-12,Promesse de paiement,,03/04/2026
+Lucas Mathieu,lucas.mathieu@example.com,06.39.98.05.16,Canada,2026-04-30,Promesse de paiement,Adresse à vérifier,03/05/2026
+Noé Chevalier,noe.chevalier@example.com,06.39.98.33.53,Belgique,2026-04-24,Promesse de paiement,Dossier transmis au service juridique,18/05/2026
+Raphaël Girard,raphael.girard3@example.com,06.39.98.86.62,Suisse,2026-02-23,Injoignable,Rappeler en fin de journée,24/02/2026
+Océane Mercier,  oceane.mercier@example.com ,06.39.98.86.11,Belgique,2026-07-21,En cours,A promis un virement,08/08/2026
+Grégoire Lefèvre,gregoire.lefevre@example.com,06.39.98.93.58,Suisse,2026-03-06,Injoignable,A promis un virement,13/03/2026
+Grégoire Dupont,gregoire.dupont@example.com,06.39.98.10.37,Suisse,2026-03-27,En cours,,25/04/2026
+Inès Robert,ines.robert@example.com,06.39.98.31.46,Canada,2026-03-18,En cours,Ne répond pas,16/04/2026
+Inès Morel,ines.morel@example.com,01.99.00.56.68,France,2026-07-29,Injoignable,Demande un échéancier sur 3 mois,26/08/2026
+Camille Gauthier,  camille.gauthier@example.com ,06.39.98.99.47,Suisse,2026-05-20,Clôturé,,
+Noé Morin,noe.morin2@example.com,06.39.98.53.00,Canada,2026-09-23,À rappeler,Demande un échéancier sur 3 mois,15/10/2026
+Ethan Rousseau,ethan.rousseau@example.com,01.99.00.31.12,Belgique,2026-06-15,En cours,Demande un échéancier sur 3 mois,12/07/2026
+Jade Richard,jade.richard3@example.com,06.39.98.04.56,Suisse,2026-09-11,Promesse de paiement,,22/09/2026
+Jules Michel,jules.michel3@example.com,06.39.98.01.78,France,2026-05-22,Injoignable,Dossier transmis au service juridique,11/06/2026
+Anaïs Dubois,  anais.dubois@example.com ,06.39.98.17.71,France,2026-02-23,À rappeler,Dossier transmis au service juridique,26/02/2026
+Clémence Richard,clemence.richard@example.com,06.39.98.43.87,France,2026-07-30,Promesse de paiement,,18/08/2026
+Léo Lemaire,leo.lemaire3@example.com,06.39.98.33.51,France,2026-05-10,En cours,,13/05/2026
+Chloé David,chloe.david2@example.com,06.39.98.21.95,Suisse,2026-08-24,Clôturé,Dossier transmis au service juridique,
+Océane Girard,oceane.girard@example.com,01.99.00.96.47,France,2026-06-20,En cours,Adresse à vérifier,05/07/2026
+Camille Morel,  camille.morel@example.com ,06.39.98.44.56,France,2026-07-22,À rappeler,,04/08/2026
+Hugo Lefèvre,hugo.lefevre@example.com,06.39.98.77.05,Belgique,2026-07-31,Clôturé,Ne répond pas,
+Noé Fournier,noe.fournier@example.com,06.39.98.63.80,Canada,2026-04-25,À rappeler,Adresse à vérifier,07/05/2026
+Rose Vincent,rose.vincent2@example.com,06.39.98.81.56,Canada,2026-07-12,En cours,Adresse à vérifier,02/08/2026
+Inès Fontaine,ines.fontaine4@example.com,06.39.98.96.59,Belgique,2026-02-24,Injoignable,Adresse à vérifier,24/03/2026
+Noé Gauthier,  noe.gauthier@example.com ,06.39.98.02.54,France,2026-01-15,Clôturé,Adresse à vérifier,
+Nathan François,nathan.francois@example.com,01.99.00.46.09,France,2026-04-17,En cours,A promis un virement,29/04/2026
+Maëlle André,maelle.andre@example.com,06.39.98.66.97,Suisse,2026-10-04,Injoignable,Demande un échéancier sur 3 mois,13/10/2026
+Adam Chevalier,adam.chevalier2@example.com,06.39.98.58.68,Belgique,2026-08-08,À rappeler,Demande un échéancier sur 3 mois,22/08/2026
+Zoé Robin,zoe.robin2@example.com,06.39.98.69.50,France,2026-01-04,Injoignable,Demande un échéancier sur 3 mois,14/01/2026
+Louis Michel,  louis.michel2@example.com ,06.39.98.97.62,Suisse,2026-05-15,À rappeler,Dossier transmis au service juridique,09/06/2026
+Rose Perrin,rose.perrin3@example.com,06.39.98.79.73,France,2026-10-14,Injoignable,Dossier transmis au service juridique,17/10/2026
+Clémence Robin,clemence.robin2@example.com,01.99.00.20.89,France,2026-05-18,Clôturé,,
+Louis Boyer,louis.boyer2@example.com,06.39.98.05.77,France,2026-01-10,En cours,Demande un échéancier sur 3 mois,19/01/2026
+Grégoire Henry,gregoire.henry@example.com,06.39.98.82.54,Belgique,2026-10-08,Promesse de paiement,Adresse à vérifier,24/10/2026
+Margaux Roussel,  margaux.roussel@example.com ,06.39.98.82.03,France,2026-09-03,En cours,Adresse à vérifier,26/09/2026
+Anaïs Michel,anais.michel@example.com,06.39.98.56.37,France,2026-03-14,Clôturé,Dossier transmis au service juridique,
+Adam Guérin,adam.guerin@example.com,06.39.98.84.63,Suisse,2026-09-20,Injoignable,Rappeler en fin de journée,24/09/2026
+Gabriel Simon,gabriel.simon@example.com,06.39.98.43.14,Belgique,2026-07-02,Injoignable,,23/07/2026
+Jules Lefèvre,jules.lefevre@example.com,01.99.00.89.93,France,2026-08-04,Clôturé,,
+Nathan Dupont,  nathan.dupont2@example.com ,06.39.98.28.33,France,2026-10-21,Injoignable,Demande un échéancier sur 3 mois,11/11/2026
+Théo Richard,theo.richard2@example.com,01.99.00.26.16,France,2026-03-26,Injoignable,Ne répond pas,11/04/2026
+Gabriel Durand,gabriel.durand2@example.com,06.39.98.91.31,Belgique,2026-03-16,Clôturé,Demande un échéancier sur 3 mois,
+Jade Bonnet,jade.bonnet@example.com,06.39.98.15.75,Belgique,2026-05-11,À rappeler,,17/05/2026
+Jules Michel,jules.michel2@example.com,06.39.98.98.58,France,2026-08-16,En cours,Dossier transmis au service juridique,18/08/2026
+Anaïs Martin,  anais.martin@example.com ,06.39.98.40.94,France,2026-06-22,Promesse de paiement,Ne répond pas,11/07/2026
+Ethan André,ethan.andre3@example.com,06.39.98.24.17,France,2026-03-20,Promesse de paiement,A promis un virement,11/04/2026
+Noé Dumont,noe.dumont@example.com,06.39.98.18.21,Canada,2026-10-17,En cours,,25/10/2026
+Jules Gautier,jules.gautier@example.com,01.99.00.17.17,Canada,2026-09-21,À rappeler,Demande un échéancier sur 3 mois,01/10/2026
+Yanis Roussel,yanis.roussel3@example.com,06.39.98.58.72,Belgique,2026-08-01,À rappeler,,10/08/2026
+Bastien Thomas,  bastien.thomas@example.com ,06.39.98.81.42,Suisse,2026-02-27,Promesse de paiement,,14/03/2026
+Jade André,jade.andre@example.com,06.39.98.41.53,Suisse,2026-02-01,Injoignable,,19/02/2026
+Camille Nicolas,camille.nicolas@example.com,01.99.00.26.75,Belgique,2026-04-24,À rappeler,,03/05/2026
+Océane Thomas,oceane.thomas3@example.com,06.39.98.56.11,Canada,2026-06-02,À rappeler,Demande un échéancier sur 3 mois,09/06/2026
+Gabriel Lambert,gabriel.lambert2@example.com,06.39.98.43.72,France,2026-04-03,En cours,Demande un échéancier sur 3 mois,27/04/2026
+Élodie Morin,  elodie.morin@example.com ,01.99.00.55.65,France,2026-06-10,En cours,Ne répond pas,29/06/2026
+Noémie David,noemie.david@example.com,06.39.98.10.29,Suisse,2026-05-12,Clôturé,A promis un virement,
+Théo Henry,theo.henry4@example.com,06.39.98.34.01,France,2026-01-09,Clôturé,,
+Mathis Morel,mathis.morel3@example.com,06.39.98.49.40,Belgique,2026-10-06,Clôturé,Ne répond pas,
+Noé Faure,noe.faure2@example.com,06.39.98.64.82,Canada,2026-04-10,Promesse de paiement,A promis un virement,19/04/2026
+Maëlle Lefèvre,  maelle.lefevre@example.com ,06.39.98.02.37,Suisse,2026-08-21,Injoignable,,24/08/2026
+Margaux Garcia,margaux.garcia@example.com,06.39.98.38.15,Canada,2026-09-09,Injoignable,Adresse à vérifier,23/09/2026
+Camille Simon,camille.simon@example.com,01.99.00.34.36,Canada,2026-08-13,À rappeler,Ne répond pas,07/09/2026
+Léo Sanchez,leo.sanchez@example.com,06.39.98.62.50,Suisse,2026-05-05,Clôturé,,
+Inès Masson,ines.masson@example.com,06.39.98.39.14,France,2026-08-01,En cours,,09/08/2026
+Clémence Boyer,  clemence.boyer2@example.com ,06.39.98.59.33,Suisse,2026-07-29,En cours,,09/08/2026
+Alice Duval,alice.duval2@example.com,06.39.98.60.54,Belgique,2026-07-22,Promesse de paiement,A promis un virement,02/08/2026
+Louise Lefebvre,louise.lefebvre2@example.com,06.39.98.57.17,Canada,2026-02-16,En cours,,19/02/2026
+Anaïs Dubois,anais.dubois4@example.com,06.39.98.77.82,Belgique,2026-07-31,Injoignable,A promis un virement,29/08/2026
+Clémence Mercier,clemence.mercier2@example.com,06.39.98.08.49,France,2026-09-12,Promesse de paiement,Demande un échéancier sur 3 mois,24/09/2026
+Océane Boyer,  oceane.boyer@example.com ,06.39.98.42.01,Belgique,2026-07-21,Clôturé,Rappeler en fin de journée,
+Océane Dupont,oceane.dupont2@example.com,01.99.00.56.11,France,2026-01-12,En cours,Adresse à vérifier,29/01/2026
+Lina Lefebvre,lina.lefebvre@example.com,06.39.98.46.58,France,2026-03-26,À rappeler,,08/04/2026
+Lucas Chevalier,lucas.chevalier@example.com,06.39.98.90.56,Suisse,2026-08-08,En cours,A promis un virement,15/08/2026
+Clémence Moreau,clemence.moreau2@example.com,06.39.98.15.05,France,2026-07-09,Promesse de paiement,Ne répond pas,01/08/2026
+Louis Faure,  louis.faure3@example.com ,06.39.98.18.16,Suisse,2026-01-02,À rappeler,,26/01/2026
+Lina Laurent,lina.laurent@example.com,06.39.98.99.22,Canada,2026-03-06,Clôturé,Ne répond pas,
+Anaïs Leroy,anais.leroy@example.com,01.99.00.11.43,Suisse,2026-10-07,Clôturé,Dossier transmis au service juridique,
+Bastien Bernard,bastien.bernard2@example.com,06.39.98.77.83,France,2026-05-28,Promesse de paiement,,20/06/2026
+Léa Laurent,lea.laurent2@example.com,06.39.98.28.14,Canada,2026-08-02,Injoignable,Demande un échéancier sur 3 mois,18/08/2026
+Grégoire Durand,  gregoire.durand2@example.com ,06.39.98.59.59,France,2026-04-09,Injoignable,Adresse à vérifier,30/04/2026
+Emma Thomas,emma.thomas@example.com,06.39.98.13.78,France,2026-02-01,Promesse de paiement,,24/02/2026
+Louis Fontaine,louis.fontaine2@example.com,01.99.00.98.09,Belgique,2026-02-06,Clôturé,Ne répond pas,
+Léo Robin,leo.robin@example.com,06.39.98.84.81,France,2026-01-22,En cours,Demande un échéancier sur 3 mois,07/02/2026
+Léa David,lea.david2@example.com,06.39.98.77.44,Suisse,2026-07-11,Clôturé,Ne répond pas,
+Hugo Gauthier,  hugo.gauthier2@example.com ,06.39.98.20.93,Suisse,2026-01-20,À rappeler,Demande un échéancier sur 3 mois,21/01/2026
+Lucas Henry,lucas.henry@example.com,01.99.00.88.65,France,2026-06-20,En cours,A promis un virement,06/07/2026
+Raphaël Roux,raphael.roux@example.com,06.39.98.89.09,Suisse,2026-01-08,À rappeler,Rappeler en fin de journée,27/01/2026
+Arthur Masson,arthur.masson2@example.com,06.39.98.93.69,Suisse,2026-09-22,À rappeler,Rappeler en fin de journée,01/10/2026
+Élodie Mercier,elodie.mercier2@example.com,06.39.98.00.44,Belgique,2026-05-19,Clôturé,,
+Camille Durand,  camille.durand@example.com ,06.39.98.18.54,Suisse,2026-10-10,À rappeler,Rappeler en fin de journée,26/10/2026
+Adam Bernard,adam.bernard2@example.com,06.39.98.65.50,France,2026-07-11,Injoignable,,27/07/2026
+Ethan Garcia,ethan.garcia2@example.com,01.99.00.97.18,Canada,2026-01-30,Injoignable,,05/02/2026
+Élodie Mathieu,elodie.mathieu3@example.com,06.39.98.91.35,France,2026-09-02,Clôturé,,
+Noé Lefèvre,noe.lefevre@example.com,06.39.98.11.69,France,2026-01-30,Injoignable,,10/02/2026
+Salomé Mercier,  salome.mercier@example.com ,06.39.98.22.28,Belgique,2026-08-10,À rappeler,Adresse à vérifier,04/09/2026
+Margaux Mathieu,margaux.mathieu2@example.com,01.99.00.28.84,Suisse,2026-10-14,Promesse de paiement,,11/11/2026
+Gabriel Nguyen,gabriel.nguyen@example.com,06.39.98.59.43,France,2026-09-25,À rappeler,Demande un échéancier sur 3 mois,16/10/2026
+Zoé Rousseau,zoe.rousseau@example.com,06.39.98.46.65,Belgique,2026-06-17,Clôturé,Rappeler en fin de journée,
+Margaux Simon,margaux.simon@example.com,06.39.98.27.35,Belgique,2026-08-28,Promesse de paiement,,23/09/2026
+Raphaël Morel,  raphael.morel2@example.com ,01.99.00.79.88,Canada,2026-10-07,Injoignable,Dossier transmis au service juridique,09/10/2026
+Louise Leroy,louise.leroy@example.com,01.99.00.22.00,Suisse,2026-03-02,À rappeler,,09/03/2026
+Arthur Nicolas,arthur.nicolas@example.com,06.39.98.95.54,France,2026-07-17,Injoignable,,05/08/2026
+Camille Mercier,camille.mercier@example.com,01.99.00.27.47,Belgique,2026-10-06,En cours,Dossier transmis au service juridique,22/10/2026
+Théo Leroy,theo.leroy@example.com,06.39.98.42.44,Belgique,2026-08-23,Promesse de paiement,A promis un virement,05/09/2026
+Camille Guérin,  camille.guerin@example.com ,06.39.98.18.94,Suisse,2026-04-08,Promesse de paiement,,26/04/2026
+Emma Fournier,emma.fournier3@example.com,06.39.98.07.42,Suisse,2026-01-08,Clôturé,Adresse à vérifier,
+Louise Fournier,louise.fournier@example.com,06.39.98.74.05,France,2026-07-26,En cours,,22/08/2026
+Ethan Denis,ethan.denis@example.com,06.39.98.01.02,Belgique,2026-01-07,À rappeler,,06/02/2026
+Bastien Roussel,bastien.roussel2@example.com,06.39.98.19.93,France,2026-07-10,Injoignable,,28/07/2026
+Manon Durand,  manon.durand@example.com ,06.39.98.90.61,Belgique,2026-02-08,À rappeler,Demande un échéancier sur 3 mois,04/03/2026
+Jade Denis,jade.denis@example.com,06.39.98.81.09,France,2026-05-15,Promesse de paiement,Demande un échéancier sur 3 mois,14/06/2026
+Camille Gautier,camille.gautier@example.com,06.39.98.48.03,Suisse,2026-06-01,En cours,,01/07/2026
+Nathan Morin,nathan.morin2@example.com,06.39.98.53.50,France,2026-02-21,En cours,Adresse à vérifier,16/03/2026
+Gabriel Vincent,gabriel.vincent@example.com,06.39.98.55.72,Belgique,2026-06-29,À rappeler,A promis un virement,24/07/2026
+Salomé Moreau,  salome.moreau@example.com ,06.39.98.50.53,Belgique,2026-07-14,À rappeler,,29/07/2026
+Hugo Dupont,hugo.dupont@example.com,06.39.98.77.21,Suisse,2026-09-25,Promesse de paiement,Rappeler en fin de journée,17/10/2026
+Loïc Gautier,loic.gautier@example.com,06.39.98.17.11,France,2026-02-07,Promesse de paiement,Rappeler en fin de journée,27/02/2026
+Camille Lemaire,camille.lemaire@example.com,06.39.98.89.35,Suisse,2026-09-28,Injoignable,,23/10/2026
+Inès Masson,ines.masson2@example.com,06.39.98.41.86,France,2026-01-30,Injoignable,Rappeler en fin de journée,26/02/2026
+Chloé Boyer,  chloe.boyer@example.com ,06.39.98.74.50,Suisse,2026-01-11,Promesse de paiement,Adresse à vérifier,15/01/2026
+Élodie David,elodie.david@example.com,06.39.98.20.49,Belgique,2026-08-24,À rappeler,Dossier transmis au service juridique,18/09/2026
+Arthur Roussel,arthur.roussel@example.com,06.39.98.76.33,Belgique,2026-07-05,Promesse de paiement,Rappeler en fin de journée,28/07/2026
+Noé Lemaire,noe.lemaire3@example.com,06.39.98.24.08,France,2026-02-03,À rappeler,Ne répond pas,01/03/2026
+Anaïs Girard,anais.girard2@example.com,06.39.98.55.34,Suisse,2026-04-08,En cours,,08/05/2026
+Lucas Sanchez,  lucas.sanchez2@example.com ,06.39.98.35.96,France,2026-05-11,Promesse de paiement,Rappeler en fin de journée,21/05/2026
+Manon Nicolas,manon.nicolas4@example.com,01.99.00.03.79,France,2026-10-19,Promesse de paiement,A promis un virement,11/11/2026
+Louis Boyer,louis.boyer@example.com,06.39.98.74.65,Belgique,2026-04-03,Clôturé,,
+Raphaël Leroy,raphael.leroy@example.com,06.39.98.06.96,Canada,2026-10-05,À rappeler,Ne répond pas,28/10/2026
+Léo Masson,leo.masson2@example.com,06.39.98.11.09,Canada,2026-04-20,À rappeler,Adresse à vérifier,30/04/2026
+Mathis Mercier,  mathis.mercier@example.com ,06.39.98.30.48,Belgique,2026-08-09,Promesse de paiement,Demande un échéancier sur 3 mois,23/08/2026
+Léo Lefèvre,leo.lefevre3@example.com,01.99.00.47.42,Belgique,2026-04-28,Clôturé,Rappeler en fin de journée,
+Jules Bernard,jules.bernard@example.com,01.99.00.19.09,France,2026-04-05,Clôturé,Demande un échéancier sur 3 mois,
+Élodie Bernard,elodie.bernard@example.com,06.39.98.56.71,Canada,2026-03-15,En cours,,06/04/2026
+Zoé Masson,zoe.masson@example.com,06.39.98.22.42,Suisse,2026-06-14,Clôturé,,
+Loïc Richard,  loic.richard@example.com ,01.99.00.20.58,Canada,2026-08-08,En cours,Demande un échéancier sur 3 mois,25/08/2026
+Jules Leroy,jules.leroy3@example.com,06.39.98.05.39,Belgique,2026-01-23,En cours,A promis un virement,19/02/2026
+Adam Perrin,adam.perrin@example.com,06.39.98.47.55,Suisse,2026-02-07,À rappeler,Dossier transmis au service juridique,15/02/2026
+Alice Perrin,alice.perrin@example.com,06.39.98.07.05,France,2026-03-08,En cours,Rappeler en fin de journée,22/03/2026
+Louise Gautier,louise.gautier2@example.com,06.39.98.22.07,Suisse,2026-03-18,À rappeler,A promis un virement,22/03/2026
+Lina Lambert,  lina.lambert@example.com ,06.39.98.88.10,France,2026-05-08,Clôturé,,
+Adam Dumont,adam.dumont@example.com,06.39.98.69.84,Canada,2026-03-16,Promesse de paiement,,11/04/2026
+Margaux Leroy,margaux.leroy@example.com,06.39.98.77.31,France,2026-02-08,Injoignable,Dossier transmis au service juridique,26/02/2026
+Élodie Simon,elodie.simon@example.com,06.39.98.21.15,Suisse,2026-07-04,Clôturé,Ne répond pas,
+Hugo Gautier,hugo.gautier2@example.com,06.39.98.04.32,France,2026-07-15,En cours,A promis un virement,11/08/2026
+Alice David,  alice.david@example.com ,06.39.98.07.91,Suisse,2026-06-01,En cours,Adresse à vérifier,23/06/2026
+Emma Bonnet,emma.bonnet2@example.com,06.39.98.33.27,France,2026-03-31,Clôturé,Dossier transmis au service juridique,
+Adam Sanchez,adam.sanchez@example.com,06.39.98.55.20,France,2026-02-12,Promesse de paiement,Ne répond pas,08/03/2026
+Rose Morel,rose.morel3@example.com,06.39.98.95.74,France,2026-01-09,Clôturé,Demande un échéancier sur 3 mois,
+Clémence Laurent,clemence.laurent@example.com,06.39.98.31.85,Suisse,2026-06-05,Injoignable,A promis un virement,28/06/2026
+Salomé Morel,  salome.morel2@example.com ,06.39.98.83.75,Suisse,2026-10-26,En cours,Demande un échéancier sur 3 mois,12/11/2026
+Théo Roussel,theo.roussel3@example.com,06.39.98.49.52,Belgique,2026-03-03,À rappeler,,14/03/2026
+Lucas Roux,lucas.roux@example.com,01.99.00.53.71,Belgique,2026-09-04,Clôturé,Rappeler en fin de journée,
+Salomé Denis,salome.denis@example.com,01.99.00.17.59,France,2026-01-06,Promesse de paiement,Rappeler en fin de journée,09/01/2026
+Alice Roux,alice.roux@example.com,06.39.98.56.10,France,2026-06-22,Injoignable,,15/07/2026
+Salomé Boyer,  salome.boyer@example.com ,01.99.00.75.20,France,2026-05-30,Promesse de paiement,A promis un virement,03/06/2026
+Adam Chevalier,adam.chevalier@example.com,06.39.98.05.96,Belgique,2026-06-27,À rappeler,Dossier transmis au service juridique,16/07/2026
+Loïc Lefebvre,loic.lefebvre@example.com,06.39.98.11.42,Belgique,2026-05-11,Clôturé,Rappeler en fin de journée,
+Ethan Martinez,ethan.martinez2@example.com,06.39.98.25.47,France,2026-06-06,À rappeler,,15/06/2026
+Mathis Nicolas,mathis.nicolas@example.com,06.39.98.56.57,Canada,2026-03-02,Injoignable,Rappeler en fin de journée,19/03/2026
+Sacha Martin,  sacha.martin2@example.com ,01.99.00.56.94,Canada,2026-06-21,En cours,Rappeler en fin de journée,04/07/2026
+Théo Dumont,theo.dumont@example.com,01.99.00.19.84,France,2026-04-14,À rappeler,Ne répond pas,05/05/2026
+Raphaël Fontaine,raphael.fontaine@example.com,06.39.98.98.83,France,2026-07-30,Promesse de paiement,,06/08/2026
+Océane David,oceane.david@example.com,06.39.98.85.90,Canada,2026-07-11,Promesse de paiement,Adresse à vérifier,13/07/2026
+Loïc François,loic.francois2@example.com,06.39.98.47.93,Suisse,2026-04-26,Clôturé,Dossier transmis au service juridique,
+Bastien Nicolas,  bastien.nicolas@example.com ,06.39.98.34.36,Belgique,2026-01-30,À rappeler,Dossier transmis au service juridique,18/02/2026
+Lina Bernard,lina.bernard@example.com,06.39.98.64.12,Canada,2026-01-07,Promesse de paiement,Dossier transmis au service juridique,18/01/2026
+Jules Clément,jules.clement3@example.com,06.39.98.84.53,Canada,2026-04-18,Injoignable,Adresse à vérifier,09/05/2026
+Raphaël Nguyen,raphael.nguyen2@example.com,06.39.98.22.12,France,2026-09-17,À rappeler,A promis un virement,10/10/2026
+Inès Simon,ines.simon2@example.com,06.39.98.28.80,Suisse,2026-07-16,Injoignable,Dossier transmis au service juridique,30/07/2026
+Gabriel Bertrand,  gabriel.bertrand2@example.com ,06.39.98.06.41,Canada,2026-09-29,Injoignable,,01/10/2026
+Arthur Girard,arthur.girard@example.com,01.99.00.53.79,France,2026-06-23,En cours,Demande un échéancier sur 3 mois,04/07/2026
+Jérôme Petit,jerome.petit@example.com,06.39.98.55.96,France,2026-06-03,Injoignable,Dossier transmis au service juridique,20/06/2026
+Emma Denis,emma.denis4@example.com,06.39.98.91.96,Belgique,2026-05-26,Clôturé,,
+Théo Garnier,theo.garnier@example.com,06.39.98.63.73,Belgique,2026-07-25,En cours,Ne répond pas,31/07/2026
+Clémence Simon,  clemence.simon@example.com ,01.99.00.42.89,Canada,2026-04-30,À rappeler,,26/05/2026
+Anaïs Laurent,anais.laurent3@example.com,06.39.98.03.05,Suisse,2026-06-06,Promesse de paiement,,05/07/2026
+Léa Bernard,lea.bernard@example.com,06.39.98.41.09,Canada,2026-03-07,En cours,A promis un virement,27/03/2026
+Jérôme Gérard,jerome.gerard@example.com,06.39.98.97.64,Canada,2026-04-05,Injoignable,Demande un échéancier sur 3 mois,22/04/2026
+Raphaël Lefèvre,raphael.lefevre2@example.com,06.39.98.89.62,France,2026-07-03,En cours,Ne répond pas,22/07/2026
+Théo Lambert,  theo.lambert@example.com ,01.99.00.52.49,France,2026-10-06,Injoignable,,24/10/2026
+Lucas Vincent,lucas.vincent3@example.com,06.39.98.37.96,Canada,2026-01-05,En cours,Demande un échéancier sur 3 mois,13/01/2026
+Arthur Perrin,arthur.perrin@example.com,06.39.98.96.90,Canada,2026-10-05,En cours,Demande un échéancier sur 3 mois,22/10/2026
+Chloé Henry,chloe.henry@example.com,06.39.98.57.82,France,2026-07-08,En cours,A promis un virement,17/07/2026
+Bastien Bernard,bastien.bernard@example.com,06.39.98.09.84,France,2026-02-23,En cours,Ne répond pas,21/03/2026
+Nathan Chevalier,  nathan.chevalier@example.com ,06.39.98.25.17,France,2026-10-03,Clôturé,Dossier transmis au service juridique,
+Chloé Fontaine,chloe.fontaine3@example.com,06.39.98.19.63,Canada,2026-05-19,Injoignable,A promis un virement,04/06/2026
+Noé Faure,noe.faure@example.com,01.99.00.44.62,France,2026-07-22,À rappeler,Demande un échéancier sur 3 mois,20/08/2026
+Nathan Roussel,nathan.roussel2@example.com,01.99.00.43.59,Canada,2026-01-01,Promesse de paiement,Rappeler en fin de journée,13/01/2026
+Raphaël Duval,raphael.duval@example.com,06.39.98.77.49,Canada,2026-08-16,À rappeler,A promis un virement,03/09/2026
+Anaïs Fournier,  anais.fournier2@example.com ,06.39.98.92.71,France,2026-07-01,En cours,,11/07/2026
+Chloé Fontaine,chloe.fontaine2@example.com,06.39.98.88.45,France,2026-02-23,Clôturé,,
+Grégoire Bernard,gregoire.bernard3@example.com,06.39.98.83.88,France,2026-01-06,À rappeler,Dossier transmis au service juridique,25/01/2026
+Jade Thomas,jade.thomas2@example.com,06.39.98.48.20,Canada,2026-09-28,En cours,Adresse à vérifier,12/10/2026
+Léo Roux,leo.roux@example.com,06.39.98.70.01,Canada,2026-06-27,À rappeler,,28/06/2026
+Ethan Dubois,  ethan.dubois@example.com ,01.99.00.01.23,France,2026-05-16,Clôturé,,
+Rose Girard,rose.girard@example.com,06.39.98.34.74,France,2026-08-04,À rappeler,Dossier transmis au service juridique,14/08/2026
+Gabriel Bertrand,gabriel.bertrand@example.com,06.39.98.09.90,France,2026-10-24,En cours,Demande un échéancier sur 3 mois,03/11/2026
+Nathan Mathieu,nathan.mathieu2@example.com,06.39.98.92.12,Canada,2026-08-06,En cours,Ne répond pas,31/08/2026
+Noémie Simon,noemie.simon@example.com,06.39.98.76.37,Canada,2026-05-07,Clôturé,Rappeler en fin de journée,
+Noé Lambert,  noe.lambert2@example.com ,06.39.98.70.31,Canada,2026-03-16,Injoignable,Rappeler en fin de journée,27/03/2026
+Manon Sanchez,manon.sanchez@example.com,06.39.98.82.23,Canada,2026-07-16,En cours,Ne répond pas,10/08/2026
+Jade Boyer,jade.boyer@example.com,06.39.98.34.61,Canada,2026-10-09,En cours,Dossier transmis au service juridique,07/11/2026
+Jade David,jade.david2@example.com,06.39.98.11.59,Canada,2026-03-15,Promesse de paiement,,28/03/2026
+Noémie Denis,noemie.denis@example.com,01.99.00.05.24,France,2026-09-01,Clôturé,,
+Grégoire Robert,  gregoire.robert@example.com ,06.39.98.30.30,Canada,2026-01-09,À rappeler,Rappeler en fin de journée,19/01/2026
+Ethan Bonnet,ethan.bonnet@example.com,06.39.98.98.70,Belgique,2026-02-02,En cours,Adresse à vérifier,27/02/2026
+Bastien Chevalier,bastien.chevalier2@example.com,06.39.98.82.53,France,2026-01-14,Clôturé,Dossier transmis au service juridique,
+Nathan Joly,nathan.joly@example.com,06.39.98.80.74,Canada,2026-06-23,Promesse de paiement,Rappeler en fin de journée,12/07/2026
+Noé Mathieu,noe.mathieu2@example.com,06.39.98.39.80,Canada,2026-07-24,En cours,Rappeler en fin de journée,21/08/2026
+Chloé Durand,  chloe.durand@example.com ,06.39.98.86.06,Suisse,2026-08-27,En cours,Dossier transmis au service juridique,13/09/2026
+Léo Bernard,leo.bernard@example.com,06.39.98.06.40,Canada,2026-08-10,Clôturé,,
+Inès Roux,ines.roux@example.com,06.39.98.55.86,France,2026-02-25,Clôturé,,
+Inès Lefebvre,ines.lefebvre3@example.com,06.39.98.64.84,Belgique,2026-06-08,En cours,Dossier transmis au service juridique,22/06/2026
+Louise Simon,louise.simon@example.com,06.39.98.53.09,Canada,2026-08-31,À rappeler,,17/09/2026
+Camille Vincent,  camille.vincent@example.com ,01.99.00.60.41,France,2026-02-15,Injoignable,Rappeler en fin de journée,06/03/2026
+Hugo Fontaine,hugo.fontaine@example.com,06.39.98.09.35,Suisse,2026-01-26,Clôturé,Dossier transmis au service juridique,
+Noémie Bertrand,noemie.bertrand3@example.com,01.99.00.62.91,Suisse,2026-10-08,En cours,Rappeler en fin de journée,07/11/2026
+Hugo Michel,hugo.michel@example.com,06.39.98.18.07,Belgique,2026-09-13,Injoignable,Adresse à vérifier,29/09/2026
+Raphaël Robin,raphael.robin@example.com,06.39.98.96.01,Belgique,2026-09-23,En cours,,26/09/2026
+Sacha Bertrand,  sacha.bertrand3@example.com ,06.39.98.41.33,Belgique,2026-02-19,Injoignable,Dossier transmis au service juridique,01/03/2026
+Océane Lambert,oceane.lambert@example.com,06.39.98.75.39,Canada,2026-04-01,Promesse de paiement,Demande un échéancier sur 3 mois,22/04/2026
+Jules André,jules.andre@example.com,06.39.98.58.85,Suisse,2026-07-19,Clôturé,,
+Louis Simon,louis.simon@example.com,06.39.98.36.48,Canada,2026-02-01,Clôturé,Dossier transmis au service juridique,
+Camille Faure,camille.faure2@example.com,06.39.98.46.43,France,2026-03-27,Injoignable,,26/04/2026
+Inès Masson,  ines.masson3@example.com ,06.39.98.85.94,Belgique,2026-01-27,Clôturé,,
+Zoé Girard,zoe.girard@example.com,06.39.98.27.84,Canada,2026-02-24,En cours,Dossier transmis au service juridique,24/03/2026
+Jade Nguyen,jade.nguyen@example.com,06.39.98.13.30,Suisse,2026-04-12,Injoignable,Dossier transmis au service juridique,07/05/2026
+Alice Boyer,alice.boyer3@example.com,06.39.98.57.97,France,2026-01-18,Promesse de paiement,A promis un virement,14/02/2026
+Nathan Martin,nathan.martin2@example.com,06.39.98.16.14,France,2026-08-24,Injoignable,A promis un virement,17/09/2026
+Léa Roux,  lea.roux3@example.com ,01.99.00.97.00,France,2026-10-29,Clôturé,Adresse à vérifier,
+Gabriel Michel,gabriel.michel3@example.com,01.99.00.73.71,Belgique,2026-10-11,Promesse de paiement,,28/10/2026
+Alice Robert,alice.robert2@example.com,06.39.98.22.65,France,2026-02-15,À rappeler,,26/02/2026
+Hugo Leroy,hugo.leroy@example.com,01.99.00.70.95,France,2026-08-10,En cours,,14/08/2026
+Élodie Lemaire,elodie.lemaire@example.com,06.39.98.44.39,Canada,2026-05-26,À rappeler,Dossier transmis au service juridique,19/06/2026
+Océane Blanc,  oceane.blanc@example.com ,01.99.00.98.14,Canada,2026-03-30,Injoignable,Rappeler en fin de journée,15/04/2026
+Louise Mercier,louise.mercier@example.com,01.99.00.44.40,Canada,2026-01-05,Clôturé,,
+Jade Clément,jade.clement@example.com,06.39.98.93.88,France,2026-04-06,Clôturé,,
+Manon Gauthier,manon.gauthier@example.com,06.39.98.55.25,Belgique,2026-03-29,Injoignable,A promis un virement,13/04/2026
+Margaux Dupont,margaux.dupont3@example.com,06.39.98.78.17,Suisse,2026-03-18,Clôturé,Dossier transmis au service juridique,
+Yanis Morel,  yanis.morel2@example.com ,06.39.98.15.12,France,2026-10-14,Clôturé,Dossier transmis au service juridique,
+Sacha Clément,sacha.clement@example.com,06.39.98.97.04,France,2026-08-04,Injoignable,,23/08/2026
+Théo Lambert,theo.lambert2@example.com,06.39.98.34.62,Suisse,2026-10-26,Injoignable,,24/11/2026
+Jules Clément,jules.clement@example.com,01.99.00.61.39,Belgique,2026-09-11,À rappeler,A promis un virement,10/10/2026
+Gabriel Bernard,gabriel.bernard@example.com,06.39.98.89.57,Suisse,2026-01-08,Promesse de paiement,Adresse à vérifier,14/01/2026
+Noémie Dubois,  noemie.dubois@example.com ,06.39.98.76.82,Suisse,2026-01-07,Clôturé,,
+Sacha Legrand,sacha.legrand@example.com,01.99.00.62.31,Canada,2026-05-07,À rappeler,Ne répond pas,02/06/2026
+Élodie Mercier,elodie.mercier@example.com,06.39.98.57.22,Belgique,2026-02-08,Injoignable,,14/02/2026
+Clémence Laurent,clemence.laurent2@example.com,06.39.98.17.94,Canada,2026-04-14,Promesse de paiement,Rappeler en fin de journée,11/05/2026
+Margaux Mathieu,margaux.mathieu@example.com,06.39.98.70.80,France,2026-10-13,Clôturé,A promis un virement,
+Nathan Gérard,  nathan.gerard@example.com ,01.99.00.84.31,Canada,2026-03-23,À rappeler,,03/04/2026
+Lucas Fontaine,lucas.fontaine2@example.com,06.39.98.37.55,Canada,2026-02-22,Injoignable,,17/03/2026
+Nathan Blanc,nathan.blanc@example.com,06.39.98.05.97,Suisse,2026-10-17,Promesse de paiement,A promis un virement,22/10/2026
+Salomé Lefèvre,salome.lefevre@example.com,06.39.98.51.02,Belgique,2026-05-05,Promesse de paiement,,31/05/2026
+Théo Gautier,theo.gautier2@example.com,06.39.98.81.84,Canada,2026-06-12,Injoignable,Adresse à vérifier,30/06/2026
+Jérôme Lefebvre,  jerome.lefebvre2@example.com ,01.99.00.85.87,France,2026-05-09,Clôturé,Adresse à vérifier,
+Zoé Masson,zoe.masson2@example.com,06.39.98.78.50,Canada,2026-01-28,Clôturé,,
+Margaux Moreau,margaux.moreau2@example.com,06.39.98.02.58,France,2026-08-11,À rappeler,Ne répond pas,06/09/2026
+Emma Dupont,emma.dupont2@example.com,06.39.98.91.15,Canada,2026-10-06,Promesse de paiement,A promis un virement,04/11/2026
+Raphaël Girard,raphael.girard2@example.com,06.39.98.97.40,Canada,2026-07-04,En cours,Rappeler en fin de journée,07/07/2026
+Alice Dupont,  alice.dupont2@example.com ,01.99.00.11.51,France,2026-10-04,Promesse de paiement,Dossier transmis au service juridique,26/10/2026
+Adam Joly,adam.joly@example.com,06.39.98.98.93,Belgique,2026-07-04,Clôturé,,
+Manon Fontaine,manon.fontaine@example.com,06.39.98.42.19,Suisse,2026-10-25,Injoignable,Adresse à vérifier,07/11/2026
+Louis Michel,louis.michel@example.com,06.39.98.80.49,France,2026-03-21,Promesse de paiement,Adresse à vérifier,12/04/2026
+Nathan Duval,nathan.duval3@example.com,06.39.98.85.51,France,2026-02-23,Clôturé,,
+Emma Dupont,  emma.dupont@example.com ,06.39.98.42.32,Belgique,2026-10-14,À rappeler,Ne répond pas,04/11/2026
+Jules Legrand,jules.legrand3@example.com,06.39.98.98.52,France,2026-03-31,Promesse de paiement,Ne répond pas,20/04/2026
+Jules Lopez,jules.lopez3@example.com,06.39.98.32.71,France,2026-09-10,À rappeler,Demande un échéancier sur 3 mois,21/09/2026
+Théo Girard,theo.girard2@example.com,06.39.98.83.35,France,2026-06-01,Injoignable,Ne répond pas,07/06/2026
+Nathan Martin,nathan.martin3@example.com,06.39.98.22.66,Canada,2026-05-11,Promesse de paiement,Dossier transmis au service juridique,03/06/2026
+Nathan Dupont,  nathan.dupont@example.com ,06.39.98.23.41,France,2026-01-30,En cours,Ne répond pas,16/02/2026
+Océane Nicolas,oceane.nicolas2@example.com,06.39.98.65.75,Suisse,2026-03-04,Clôturé,Demande un échéancier sur 3 mois,
+Chloé Fournier,chloe.fournier3@example.com,01.99.00.02.91,Canada,2026-08-14,Clôturé,A promis un virement,
+Alice Denis,alice.denis@example.com,06.39.98.07.77,Suisse,2026-08-12,Clôturé,A promis un virement,
+Clémence Blanc,clemence.blanc@example.com,06.39.98.07.85,Canada,2026-07-28,Clôturé,Ne répond pas,
+Lucas Fournier,  lucas.fournier3@example.com ,06.39.98.13.90,Suisse,2026-09-18,Promesse de paiement,A promis un virement,01/10/2026
+Jules Mercier,jules.mercier4@example.com,06.39.98.22.08,Canada,2026-09-07,Promesse de paiement,Rappeler en fin de journée,14/09/2026
+Yanis Girard,yanis.girard@example.com,06.39.98.87.74,Belgique,2026-03-13,En cours,A promis un virement,18/03/2026
+Théo Rousseau,theo.rousseau2@example.com,01.99.00.38.23,Canada,2026-03-08,Promesse de paiement,Ne répond pas,31/03/2026
+Lina Lefèvre,lina.lefevre@example.com,06.39.98.55.85,France,2026-03-30,Promesse de paiement,,27/04/2026
+Jules Simon,  jules.simon@example.com ,06.39.98.34.21,Belgique,2026-05-12,À rappeler,Demande un échéancier sur 3 mois,02/06/2026
+Gabriel Lemaire,gabriel.lemaire@example.com,01.99.00.81.48,Belgique,2026-09-28,Promesse de paiement,,04/10/2026
+Mathis Sanchez,mathis.sanchez2@example.com,06.39.98.79.40,Belgique,2026-07-18,Injoignable,Rappeler en fin de journée,28/07/2026
+Yanis Laurent,yanis.laurent@example.com,06.39.98.37.60,Belgique,2026-06-23,À rappeler,Rappeler en fin de journée,07/07/2026
+Nathan Lefèvre,nathan.lefevre@example.com,06.39.98.90.37,France,2026-02-06,Clôturé,Dossier transmis au service juridique,
+Mathis Thomas,  mathis.thomas2@example.com ,06.39.98.49.03,France,2026-10-18,En cours,Adresse à vérifier,23/10/2026
+Margaux Perrin,margaux.perrin@example.com,06.39.98.07.99,Belgique,2026-08-27,Clôturé,,
+Grégoire Bernard,gregoire.bernard2@example.com,06.39.98.42.45,Suisse,2026-02-03,Clôturé,Demande un échéancier sur 3 mois,
+Alice Denis,alice.denis2@example.com,01.99.00.08.67,Suisse,2026-05-16,Promesse de paiement,Ne répond pas,20/05/2026
+Noémie Guérin,noemie.guerin@example.com,01.99.00.87.60,France,2026-02-16,En cours,Dossier transmis au service juridique,10/03/2026
+Loïc Duval,  loic.duval@example.com ,01.99.00.74.52,France,2026-04-20,Injoignable,,21/04/2026
+Noémie Dumont,noemie.dumont3@example.com,06.39.98.29.63,Canada,2026-07-06,À rappeler,Rappeler en fin de journée,05/08/2026
+Théo Fontaine,theo.fontaine@example.com,06.39.98.14.93,France,2026-07-29,Promesse de paiement,Ne répond pas,18/08/2026
+Margaux Gautier,margaux.gautier@example.com,06.39.98.36.82,Belgique,2026-10-07,Injoignable,Ne répond pas,12/10/2026
+Léa Robert,lea.robert@example.com,06.39.98.20.19,Suisse,2026-04-11,Injoignable,A promis un virement,17/04/2026
+Jérôme Petit,  jerome.petit2@example.com ,06.39.98.87.66,France,2026-09-22,Clôturé,A promis un virement,
+Élodie Henry,elodie.henry@example.com,06.39.98.99.86,Canada,2026-02-06,Promesse de paiement,Rappeler en fin de journée,10/02/2026
+Rose Muller,rose.muller@example.com,01.99.00.90.51,France,2026-05-01,Promesse de paiement,Ne répond pas,07/05/2026
+Bastien Michel,bastien.michel3@example.com,06.39.98.25.39,Suisse,2026-04-06,En cours,Demande un échéancier sur 3 mois,25/04/2026
+Maëlle Roussel,maelle.roussel2@example.com,06.39.98.25.78,France,2026-03-14,Injoignable,A promis un virement,30/03/2026
+Théo Robert,  theo.robert@example.com ,06.39.98.82.52,Canada,2026-05-22,En cours,Dossier transmis au service juridique,14/06/2026
+Salomé Faure,salome.faure3@example.com,06.39.98.10.88,Belgique,2026-09-11,Promesse de paiement,Ne répond pas,24/09/2026
+Léa Nguyen,lea.nguyen2@example.com,01.99.00.41.66,Canada,2026-08-30,En cours,Rappeler en fin de journée,22/09/2026
+Rose Garnier,rose.garnier@example.com,06.39.98.84.34,France,2026-06-25,Promesse de paiement,Adresse à vérifier,24/07/2026
+Jade Richard,jade.richard2@example.com,06.39.98.52.15,Canada,2026-04-06,Promesse de paiement,,28/04/2026
+Jérôme Mercier,  jerome.mercier3@example.com ,06.39.98.49.43,Suisse,2026-06-17,Promesse de paiement,Dossier transmis au service juridique,19/06/2026
+Jules Roussel,jules.roussel@example.com,01.99.00.37.18,Belgique,2026-09-09,Clôturé,,
+Noémie Lopez,noemie.lopez3@example.com,06.39.98.16.45,Canada,2026-02-22,Injoignable,Demande un échéancier sur 3 mois,11/03/2026
+Inès Thomas,ines.thomas@example.com,06.39.98.72.13,Suisse,2026-08-03,Promesse de paiement,Adresse à vérifier,22/08/2026
+Nathan Leroy,nathan.leroy@example.com,06.39.98.52.10,France,2026-04-04,À rappeler,Demande un échéancier sur 3 mois,12/04/2026
+Nathan Perrin,  nathan.perrin2@example.com ,06.39.98.38.84,France,2026-03-10,En cours,Ne répond pas,18/03/2026
+Jérôme Martin,jerome.martin2@example.com,06.39.98.06.65,France,2026-09-25,Clôturé,,
+Raphaël Masson,raphael.masson@example.com,06.39.98.29.10,Suisse,2026-09-20,En cours,,11/10/2026
+Jérôme Martin,jerome.martin@example.com,06.39.98.14.22,Suisse,2026-07-22,Injoignable,Demande un échéancier sur 3 mois,03/08/2026
+Camille Lopez,camille.lopez@example.com,06.39.98.37.70,France,2026-08-07,Injoignable,Demande un échéancier sur 3 mois,17/08/2026
