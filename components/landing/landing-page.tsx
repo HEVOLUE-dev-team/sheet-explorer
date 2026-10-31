@@ -5,6 +5,7 @@ import { ConnectActions } from "@/components/landing/connect-actions";
 import { CurrentYear } from "@/components/landing/current-year";
 import { DemoVideo } from "@/components/landing/demo-video";
 import { NavBasesLink, ResumeBases } from "@/components/landing/resume-bases";
+import { StructuredData } from "@/components/landing/structured-data";
 import { Wordmark } from "@/components/logo";
 import { WhatsAppFloat } from "@/components/whatsapp";
 import { whatsappUrl } from "@/lib/whatsapp";
@@ -15,6 +16,7 @@ export function LandingPage() {
   const whatsapp = whatsappUrl();
   return (
     <div className="landing flex min-h-svh flex-col">
+      <StructuredData />
       {/* Barre */}
       <header className="border-t-4 border-t-[var(--l-rule)]">
         <div className="mx-auto grid h-16 max-w-7xl grid-cols-[1fr_auto] items-center gap-6 px-5 md:grid-cols-[1fr_auto_1fr] md:px-8">

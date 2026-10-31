@@ -248,6 +248,24 @@ Avec `WHATSAPP_NUMBER` dans `.env.local` (format international, ex. `+3360000000
 affiche un bouton WhatsApp flottant et le back office une entrée « Aide sur WhatsApp ». La conversation
 s'ouvre avec un message de salutation pré-rempli. Sans la variable, rien n'est affiché.
 
+## Référencement (SEO)
+
+- **Validation Google Search Console** : `public/google7a7cf62f5c6e8de0.html`, servi à la racine.
+  Ne pas le supprimer, sinon la propriété perd son statut validé.
+- **Métadonnées** (`app/layout.tsx`, `lib/site.ts`) : titre, description, URL canonique,
+  Open Graph et Twitter (image `app/opengraph-image.png`, 1200×630), couleurs de thème.
+- **`/robots.txt`** (`app/robots.ts`) : la landing est indexable ; `/app` (outil personnel) et `/api/`
+  ne le sont pas. `/app` porte aussi `noindex`.
+- **`/sitemap.xml`** (`app/sitemap.ts`) : la page d'accueil, son image et la vidéo tutoriel.
+- **`/manifest.webmanifest`** (`app/manifest.ts`) et icônes (`app/icon.svg`, `app/apple-icon.png`,
+  `public/icon-192.png`, `public/icon-512.png`).
+- **Données structurées** JSON-LD (`components/landing/structured-data.tsx`) : Organization,
+  WebSite, WebApplication et VideoObject, sans note ni prix inventés.
+- L'adresse publique vient de `NEXT_PUBLIC_SITE_URL` (par défaut `https://sheetexplorer.hevolue.com`).
+
+Après chaque déploiement : dans Search Console, *Sitemaps* → ajouter `sitemap.xml`, puis
+*Inspection de l'URL* → `https://sheetexplorer.hevolue.com/` → *Demander une indexation*.
+
 ## Déploiement (Docker / Coolify)
 
 Le dépôt contient un `Dockerfile` (Next.js en mode `standalone`, image Node 22 Alpine, port 3000).
