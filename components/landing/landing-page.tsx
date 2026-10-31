@@ -43,7 +43,7 @@ export function LandingPage() {
 
       <main className="flex-1">
         {/* Titre et actions */}
-        <section className="mx-auto max-w-4xl px-5 pt-20 pb-12 text-center md:pt-28">
+        <section className="mx-auto max-w-4xl px-5 pt-14 pb-12 text-center md:pt-20">
           <h1 className="landing-serif text-[2.75rem] leading-[1.05] tracking-[-0.02em] text-balance text-[var(--l-ink)] sm:text-6xl md:text-[4.25rem]">
             Collez un lien de Sheet,
             <br />

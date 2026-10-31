@@ -188,7 +188,7 @@ app/
   globals.css              Jetons de couleur (clair et sombre)
 components/
   landing/                 Landing : page, vidéo de démo, année du pied, boutons « Connecter un Google Sheet » / démo
-  logo.tsx                 Monogramme (« S » en cellules) et nom ; même dessin que app/icon.svg
+  logo.tsx                 Nom en serif (barre et sidebar) ; monogramme dans app/icon.svg
   whatsapp.tsx             Logo WhatsApp, bouton flottant de la landing
   explorer.tsx             Back office : rail, vue principale, dialogues
   app-sidebar.tsx          Bases et croisements : basculer, renommer, supprimer
